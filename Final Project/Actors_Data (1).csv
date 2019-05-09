@@ -1,0 +1,870 @@
+,Person,Total Gross,Number of Movies,Average,#1 Picture,Gross
+0,Amy Adams,2402900000,30,$80.10 ,Batman v Superman,330400000
+1,Ben Affleck,2517800000,39,$64.60 ,Batman v Superman,330400000
+2,Casey Affleck,922800000,24,$38.40 ,Interstellar,188000000
+3,Dianna Agron,132200000,5,$26.40 ,I Am Number Four,55100000
+4,Jessica Alba,952300000,24,$39.70 ,Fantastic Four (2005),154700000
+5,Alan Alda,753000000,22,$34.20 ,What Women Want,182800000
+6,Mahershala Ali,1399600000,13,$107.70 ,Mockingjay Part 1,337100000
+7,Joan Allen,854500000,25,$34.20 ,The Bourne Ultimatum,227500000
+8,Tim Allen,1763000000,20,$88.10 ,Toy Story 3,415000000
+9,Woody Allen,461300000,27,$17.10 ,Antz,90800000
+10,Mathieu Amalric,300700000,13,$23.10 ,Quantum of Solace,168400000
+11,Gillian Anderson,180300000,15,$12.00 ,X-Files,83900000
+12,Julie Andrews,929000000,14,$66.40 ,Despicable Me 3,264600000
+13,Jennifer Aniston,1627100000,32,$50.80 ,Bruce Almighty,242800000
+14,Aziz Ansari,168600000,3,$56.20 ,Epic,107500000
+15,Christina Applegate,1117100000,21,$53.20 ,Alvin and the Chipmunks 2,219600000
+16,Tom Arnold,415900000,19,$21.90 ,True Lies,146300000
+17,Rosanna Arquette,396900000,21,$18.90 ,Pulp Fiction,107900000
+18,Gemma Arterton,517400000,14,$37.00 ,Quantum of Solace,168400000
+19,Kevin Bacon,1519200000,48,$31.70 ,Apollo 13,173800000
+20,Penn Badgley,134600000,6,$22.40 ,Easy A,58400000
+21,Alec Baldwin,2708000000,56,$48.40 ,Mission: Impossible 6,220200000
+22,Christian Bale,2293900000,39,$58.80 ,The Dark Knight,535200000
+23,Eric Bana,1068300000,17,$62.80 ,Star Trek,257700000
+24,Anne Bancroft,548000000,28,$19.60 ,The Graduate,104900000
+25,Antonio Banderas,2386400000,43,$55.50 ,Shrek 2,441200000
+26,Elizabeth Banks,3043000000,39,$78.00 ,Catching Fire,424700000
+27,Javier Bardem,725000000,19,$38.20 ,Skyfall,304400000
+28,Ben Barnes,287700000,5,$57.50 ,The Chronicles of Narnia: Prince Caspian,141600000
+29,Drew Barrymore,1614600000,36,$44.90 ,E.T.,435100000
+30,Justin Bartha,1134000000,12,$94.50 ,The Hangover,277300000
+31,Jay Baruchel,1234100000,19,$65.00 ,How to Train Your Dragon,217600000
+32,Kim Basinger,1185500000,36,$32.90 ,Batman,251200000
+33,Angela Bassett,1801400000,27,$66.70 ,Black Panther,700100000
+34,Jason Bateman,1961100000,32,$61.30 ,Zootopia,341300000
+35,Kathy Bates,2355800000,49,$48.10 ,Titanic,659400000
+36,Dave Bautista,1758500000,10,$175.90 ,Avengers: Infinity War,678800000
+37,Sean Bean,1641800000,32,$51.30 ,Fellowship of the Ring,315500000
+38,Warren Beatty,312200000,9,$34.70 ,Dick Tracy,103700000
+39,Kate Beckinsale,1046100000,26,$40.20 ,Pearl Harbor,198500000
+40,Ashley Bell,56200000,2,$28.10 ,The Last Exorcism,41000000
+41,Jamie Bell,573900000,20,$28.70 ,King Kong,218100000
+42,Kristen Bell,1035200000,19,$54.50 ,Frozen,400700000
+43,Lake Bell,365500000,10,$36.50 ,It's Complicated,112700000
+44,Maria Bello,988300000,30,$32.90 ,Grown Ups,162000000
+45,Monica Bellucci,1027900000,16,$64.20 ,Passion of the Christ,370800000
+46,Roberto Benigni,88900000,11,$8.10 ,Life Is Beautiful,57600000
+47,Annette Bening,1030300000,31,$33.20 ,Captain Marvel,416000000
+48,Melissa Benoist,50500000,2,$25.30 ,The Longest Ride,37400000
+49,Peter Berg,229800000,5,$46.00 ,Collateral,101000000
+50,Gael Garcia Bernal,317000000,24,$13.20 ,Coco,209700000
+51,Halle Berry,1988100000,32,$62.10 ,X-Men: The Last Stand,234400000
+52,Paul Bettany,2605800000,25,$104.20 ,Avengers: Infinity War,678800000
+53,Justin Bieber,79200000,2,$39.60 ,Justin Bieber,73000000
+54,Jessica Biel,773000000,25,$30.90 ,I Now Pronounce You Chuck and Larry,120100000
+55,Rachel Bilson,95300000,5,$19.10 ,Jumper,80200000
+56,Mike Binder,19100000,2,$9.50 ,The Upside of Anger,18800000
+57,Brad Bird,608600000,1,$608.60 ,Incredibles 2,608600000
+58,Jack Black,2091100000,27,$77.40 ,Jumanji (2017),404600000
+59,Lucas Black,730200000,12,$60.80 ,Furious 7,353000000
+60,Macon Blair,9400000,3,$3.10 ,The Florida Project,5900000
+61,Cate Blanchett,3487500000,45,$77.50 ,Return of the King,377800000
+62,Nikki Blonsky,118900000,3,$39.60 ,Hairspray (2007),118900000
+63,Orlando Bloom,2988400000,18,$166.00 ,Dead Man's Chest,423300000
+64,Emily Blunt,1470200000,29,$50.70 ,A Quiet Place,188000000
+65,Chadwick Boseman,2403900000,8,$300.50 ,Black Panther,700100000
+66,Kate Bosworth,529300000,19,$27.90 ,Superman Returns,200100000
+67,Sofia Boutella,426600000,6,$71.10 ,Star Trek Beyond,158800000
+68,John Boyega,1655000000,6,$275.80 ,Star Wars: The Force Awakens,936700000
+69,Luke Bracey,171000000,5,$34.20 ,Hacksaw Ridge,67200000
+70,Zach Braff,281700000,6,$47.00 ,Oz The Great and Powerful,234900000
+71,Kenneth Branagh,919200000,19,$48.40 ,Harry Potter / Chamber of Secrets,262200000
+72,Russell Brand,1187400000,10,$118.70 ,Despicable Me 2,368100000
+73,Marlon Brando,552800000,12,$46.10 ,The Godfather,135000000
+74,Benjamin Bratt,1053100000,21,$50.10 ,Despicable Me 2,368100000
+75,Ewen Bremner,1161800000,16,$72.60 ,Wonder Woman,412600000
+76,Abigail Breslin,1103900000,21,$52.60 ,Signs,228000000
+77,Jordana Brewster,1157800000,7,$165.40 ,Furious 7,353000000
+78,Chris 'Ludacris' Bridges,1513500000,14,$108.10 ,Furious 7,353000000
+79,Jeff Bridges,1804700000,54,$33.40 ,Iron Man,318400000
+80,Jim Broadbent,1156200000,47,$24.60 ,Harry Potter 6,302100000
+81,Matthew Broderick,1396900000,36,$38.80 ,Lion King,422800000
+82,Adam Brody,492700000,18,$27.40 ,Mr. & Mrs. Smith,186300000
+83,Adrien Brody,603400000,33,$18.30 ,King Kong,218100000
+84,Josh Brolin,3122500000,40,$78.10 ,Avengers: Infinity War,678800000
+85,Albert Brooks,1208300000,21,$57.50 ,Finding Dory,486300000
+86,Pierce Brosnan,1611000000,40,$40.30 ,Mrs. Doubtfire,219200000
+87,Chris Brown,269400000,6,$44.90 ,Think Like a Man,91500000
+88,Emily Browning,238900000,11,$21.70 ,Lemony Snicket,118600000
+89,Sandra Bullock,2602800000,36,$72.30 ,Minions,336000000
+90,Billy Burke,1766500000,16,$110.40 ,The Twilight Saga: Eclipse,300500000
+91,Edward Burns,370300000,13,$28.50 ,Saving Private Ryan,216500000
+92,Ty Burrell,444900000,10,$44.50 ,The Incredible Hulk,134800000
+93,Gerard Butler,1655200000,32,$51.70 ,How to Train Your Dragon,217600000
+94,Amanda Bynes,435600000,7,$62.20 ,Robots,128200000
+95,Rose Byrne,1641100000,28,$58.60 ,Bridesmaids,169100000
+96,Nicolas Cage,2408300000,58,$41.50 ,National Treasure: Book of Secrets,220000000
+97,Michael Caine,3440100000,61,$56.40 ,The Dark Knight,535200000
+98,Neve Campbell,501200000,13,$38.60 ,Scream,103000000
+99,Steve Carell,3054100000,32,$95.40 ,Despicable Me 2,368100000
+100,Jim Carrey,2545400000,28,$90.90 ,The Grinch,260000000
+101,Helena Bonham Carter,2966700000,38,$78.10 ,Harry Potter / Deathly Hallows (P2),381200000
+102,Dana Carvey,241600000,7,$34.50 ,Wayne's World,121700000
+103,Katie Cassidy,150400000,4,$37.60 ,Nightmare on Elm Street,63100000
+104,James Caviezel,748500000,22,$34.00 ,Passion of the Christ,370800000
+105,Henry Cavill,1317400000,12,$109.80 ,Batman v Superman,330400000
+106,Cedric the Entertainer,1512700000,29,$52.20 ,Madagascar 3,216400000
+107,John Cena,606300000,10,$60.60 ,Bumblebee,127200000
+108,Michael Cera,797500000,18,$44.30 ,The LEGO Batman Movie,175800000
+109,Jackie Chan,1738500000,33,$52.70 ,Rush Hour 2,226200000
+110,Jay Chandrasekhar,30700000,2,$15.30 ,Super Troopers 2,30600000
+111,Jessica Chastain,1190100000,21,$56.70 ,The Martian,228400000
+112,Don Cheadle,4016700000,36,$111.60 ,Avengers: Infinity War,678800000
+113,Cher,493700000,12,$41.10 ,Mamma Mia 2,120600000
+114,Morris Chestnut,648400000,15,$43.20 ,Identity Thief,134500000
+115,Jay Chou,105300000,2,$52.70 ,The Green Hornet,98800000
+116,Erika Christensen,203500000,11,$18.50 ,Flightplan,89700000
+117,Hayden Christensen,868700000,11,$79.00 ,Revenge of the Sith,380300000
+118,Jamie Chung,570900000,9,$63.40 ,The Hangover Part II,254500000
+119,Thomas Haden Church,1176100000,19,$61.90 ,Spider-Man 3,336500000
+120,Jemaine Clement,745100000,15,$49.70 ,Moana,248800000
+121,George Clooney,2078800000,34,$61.10 ,Gravity,274100000
+122,Glenn Close,1388300000,34,$40.80 ,Guardians of the Galaxy,333200000
+123,Sacha Baron Cohen,1345900000,12,$112.20 ,Madagascar 3,216400000
+124,Toni Collette,1016900000,40,$25.40 ,Sixth Sense,293500000
+125,Lily Collins,413100000,9,$45.90 ,The Blind Side,256000000
+126,Sean 'P. Diddy' Combs,126400000,4,$31.60 ,Get Him to the Greek,61000000
+127,Common,1421800000,25,$56.90 ,Suicide Squad,325100000
+128,Jennifer Connelly,1032900000,34,$30.40 ,A Beautiful Mind,170700000
+129,Sean Connery,1550600000,37,$41.90 ,Indiana Jones and the Last Crusade,197200000
+130,Steve Coogan,1996200000,29,$68.80 ,Despicable Me 2,368100000
+131,Sophie Cookson,276900000,3,$92.30 ,Kingsman,128300000
+132,Jennifer Coolidge,551600000,14,$39.40 ,Legally Blonde,96500000
+133,Bradley Cooper,4397800000,30,$146.60 ,Avengers: Infinity War,678800000
+134,Chris Cooper,1671000000,35,$47.70 ,The Amazing Spider-Man 2,202900000
+135,Dominic Cooper,684200000,20,$34.20 ,Captain America,176700000
+136,Sharlto Copley,573300000,10,$57.30 ,Maleficent,241400000
+137,Sofia Coppola,66700000,1,$66.70 ,The Godfather Part III,66700000
+138,John Corbett,591700000,13,$45.50 ,My Big Fat Greek Wedding,241400000
+139,Abbie Cornish,339500000,14,$24.20 ,Limitless,79200000
+140,Kevin Costner,2124800000,39,$54.50 ,Man of Steel,291000000
+141,Marion Cotillard,1183300000,20,$59.20 ,The Dark Knight Rises,448100000
+142,Jai Courtney,983100000,12,$81.90 ,Suicide Squad,325100000
+143,Brian Cox,1807100000,47,$38.40 ,X2: X-Men United,214900000
+144,Courteney Cox,579500000,14,$41.40 ,Bedtime Stories,110100000
+145,Tony Cox,546900000,10,$54.70 ,Oz The Great and Powerful,234900000
+146,Daniel Craig,1586500000,26,$61.00 ,Skyfall,304400000
+147,Bryan Cranston,1341500000,22,$61.00 ,Madagascar 3,216400000
+148,Chace Crawford,78400000,6,$13.10 ,What to Expect When You're Expecting,41200000
+149,Amanda Crew,177800000,8,$22.20 ,The Haunting in Connecticut,55400000
+150,Russell Crowe,1804500000,34,$53.10 ,Man of Steel,291000000
+151,Billy Crudup,968300000,27,$35.90 ,Justice League,229000000
+152,Tom Cruise,3997600000,40,$99.90 ,War of the Worlds,234300000
+153,Penelope Cruz,923100000,38,$24.30 ,Pirates of the Caribbean 4,241100000
+154,Billy Crystal,1358600000,19,$71.50 ,"Monsters, Inc.",289900000
+155,Ice Cube,1554000000,32,$48.60 ,22 Jump Street,191700000
+156,Macaulay Culkin,712800000,11,$64.80 ,Home Alone,285800000
+157,Rory Culkin,290200000,13,$22.30 ,Signs,228000000
+158,Benedict Cumberbatch,3179400000,21,$151.40 ,Avengers: Infinity War,678800000
+159,Kaley Cuoco,258400000,4,$64.60 ,Hop,108100000
+160,Jamie Lee Curtis,1223800000,35,$35.00 ,Halloween (2018),159300000
+161,John Cusack,1157700000,50,$23.20 ,2012,166100000
+162,Miley Cyrus,321900000,4,$80.50 ,Bolt,114100000
+163,Willem Dafoe,2091300000,59,$35.40 ,Spider-Man,403700000
+164,Matt Damon,3190000000,42,$76.00 ,The Martian,228400000
+165,Claire Danes,552900000,24,$23.00 ,Terminator 3,150400000
+166,Anthony Daniels,4040900000,9,$449.00 ,Star Wars: The Force Awakens,936700000
+167,Paul Dano,601600000,26,$23.10 ,Cowboys & Aliens,100200000
+168,Alexa Davalos,278700000,5,$55.70 ,Clash of the Titans,163200000
+169,Jack Davenport,1168000000,9,$129.80 ,Dead Man's Chest,423300000
+170,Viola Davis,1358300000,26,$52.20 ,Suicide Squad,325100000
+171,Rosario Dawson,1128100000,41,$27.50 ,Men in Black II,190400000
+172,Charlie Day,813800000,11,$74.00 ,The LEGO Movie,257800000
+173,Daniel Day-Lewis,544800000,16,$34.00 ,Lincoln,182200000
+174,Brian De Palma,165000,1,$165k,De Palma,165000
+175,Emilie de Ravin,64000000,4,$16.00 ,The Hills Have Eyes,41800000
+176,Elizabeth Debicki,782300000,8,$97.80 ,Guardians of the Galaxy 2,389800000
+177,Brooklyn Decker,209900000,5,$42.00 ,Just Go With It,103000000
+178,Ellen DeGeneres,912600000,6,$152.10 ,Finding Dory,486300000
+179,Dane DeHaan,346800000,11,$31.50 ,The Amazing Spider-Man 2,202900000
+180,Thomas Dekker,112400000,5,$22.50 ,Nightmare on Elm Street,63100000
+181,Benicio Del Toro,2297600000,34,$67.60 ,Avengers: Infinity War,678800000
+182,Cara Delevingne,401200000,6,$66.90 ,Suicide Squad,325100000
+183,Julie Delpy,80500000,16,$5.00 ,American Werewolf in Paris,26600000
+184,Judi Dench,1953200000,37,$52.80 ,Skyfall,304400000
+185,Robert DeNiro,3233700000,81,$39.90 ,Meet the Fockers,279300000
+186,Kat Dennings,672200000,11,$61.10 ,Thor: The Dark World,206400000
+187,Johnny Depp,3846800000,49,$78.50 ,Dead Man's Chest,423300000
+188,Eugenio Derbez,424100000,11,$38.60 ,Beverly Hills Chihuahua,94500000
+189,Zooey Deschanel,951700000,26,$36.60 ,Elf,173800000
+190,Adam DeVine,359400000,4,$89.80 ,Pitch Perfect 2,184300000
+191,Danny DeVito,2020300000,48,$42.10 ,The Lorax,214000000
+192,Jenna Dewan-Tatum,100500000,4,$25.10 ,Step Up,65300000
+193,Rosemarie DeWitt,164500000,15,$11.00 ,The Odd Life of Timothy Green,51900000
+194,Prabhu Dheva,892000,1,$892k,ABCD (Any Body Can Dance) 2,892000
+195,Cameron Diaz,3031700000,34,$89.20 ,Shrek 2,441200000
+196,Leonardo DiCaprio,2519000000,25,$100.80 ,Titanic,659400000
+197,Vin Diesel,3492800000,23,$151.90 ,Avengers: Infinity War,678800000
+198,Matt Dillon,856300000,42,$20.40 ,Something About Mary,176500000
+199,Snoop Dogg,284900000,9,$31.70 ,Starsky and Hutch,88200000
+200,Martin Donovan,186200000,21,$8.90 ,Insomnia,67400000
+201,Portia Doubleday,88600000,4,$22.20 ,"Big Mommas: Like Father, Like Son",37900000
+202,Michael Douglas,1993500000,37,$53.90 ,Ant-Man and the Wasp,216600000
+203,"Robert Downey, Jr.",5412800000,56,$96.70 ,Avengers: Infinity War,678800000
+204,Adam Driver,1693100000,12,$141.10 ,Star Wars: The Force Awakens,936700000
+205,David Duchovny,285600000,19,$15.00 ,X-Files,83900000
+206,Hilary Duff,402300000,10,$40.20 ,Cheaper by the Dozen,138600000
+207,Josh Duhamel,1507100000,15,$100.50 ,Transformers 2,402100000
+208,Clark Duke,466900000,10,$46.70 ,The Croods,187200000
+209,Michael Clarke Duncan,1201700000,21,$57.20 ,Armageddon,201600000
+210,Kirsten Dunst,1940700000,34,$57.10 ,Spider-Man,403700000
+211,Jay Duplass,8100000,3,$2.70 ,Beatriz At Dinner,7100000
+212,Mark Duplass,124200000,6,$20.70 ,Tammy,84500000
+213,Robert Duvall,1857400000,57,$32.60 ,Deep Impact,140500000
+214,Michael Ealy,645600000,13,$49.70 ,Think Like a Man,91500000
+215,Clint Eastwood,1814700000,47,$38.60 ,Gran Torino,148100000
+216,Aaron Eckhart,1450500000,31,$46.80 ,The Dark Knight,535200000
+217,Zac Efron,1210900000,22,$55.00 ,The Lorax,214000000
+218,Taron Egerton,549200000,8,$68.70 ,Sing,270400000
+219,Colin Egglesfield,39100000,2,$19.60 ,Something Borrowed,39000000
+220,Jesse Eisenberg,1222100000,28,$43.60 ,Batman v Superman,330400000
+221,Chiwetel Ejiofor,1170900000,21,$55.80 ,Doctor Strange,232600000
+222,Idris Elba,3688300000,32,$115.30 ,Avengers: Infinity War,678800000
+223,Ansel Elgort,616000000,8,$77.00 ,Divergent,150900000
+224,Sam Elliott,934100000,24,$38.90 ,A Star is Born,215300000
+225,Cary Elwes,1297800000,30,$43.30 ,Twister,241700000
+226,Mireille Enos,263300000,3,$87.80 ,World War Z,202400000
+227,Omar Epps,404800000,17,$23.80 ,Scream 2,101400000
+228,Chris Evans,3613800000,26,$139.00 ,Avengers: Infinity War,678800000
+229,Luke Evans,1509800000,14,$107.80 ,Beauty and the Beast,504000000
+230,Alice Eve,571500000,17,$33.60 ,Star Trek Into Darkness,228800000
+231,Dakota Fanning,1548500000,25,$61.90 ,The Twilight Saga: Eclipse,300500000
+232,Elle Fanning,687100000,21,$32.70 ,Maleficent,241400000
+233,Anna Faris,1566800000,23,$68.10 ,Alvin and the Chipmunks 2,219600000
+234,Chris Farley,129700000,6,$21.60 ,Tommy Boy,32700000
+235,Vera Farmiga,822000000,27,$30.40 ,The Conjuring,137400000
+236,Colin Farrell,1514400000,38,$39.90 ,Fantastic Beasts and Where To Find Them,234000000
+237,Michael Fassbender,1286400000,27,$47.60 ,X-Men: Days of Future Past,233900000
+238,Jon Favreau,1893300000,20,$94.70 ,Iron Man 3,409000000
+239,Rebecca Ferguson,818700000,9,$91.00 ,Mission: Impossible 6,220200000
+240,Shiloh Fernandez,102500000,7,$14.60 ,Evil Dead (2013),54200000
+241,Will Ferrell,2433300000,35,$69.50 ,The LEGO Movie,257800000
+242,America Ferrera,734300000,15,$49.00 ,How to Train Your Dragon,217600000
+243,Tina Fey,641500000,11,$58.30 ,Megamind,148400000
+244,Sally Field,2075600000,28,$74.10 ,Forrest Gump,330300000
+245,Ralph Fiennes,2935200000,39,$75.30 ,Harry Potter / Deathly Hallows (P2),381200000
+246,Jessica Brown Findlay,18400000,2,$9.20 ,Winter's Tale,12600000
+247,Colin Firth,1522200000,38,$40.10 ,Mary Poppins Returns,172000000
+248,Jenna Fischer,226200000,10,$22.60 ,Blades of Glory,118600000
+249,Laurence Fishburne,2732100000,41,$66.60 ,Batman v Superman,330400000
+250,Carrie Fisher,2890600000,19,$152.10 ,Star Wars: The Force Awakens,936700000
+251,Isla Fisher,1138200000,19,$59.90 ,Wedding Crashers,209300000
+252,Dan Fogler,749000000,13,$57.60 ,Fantastic Beasts and Where To Find Them,234000000
+253,Jane Fonda,531600000,11,$48.30 ,On Golden Pond,119300000
+254,Harrison Ford,4963800000,42,$118.20 ,Star Wars: The Force Awakens,936700000
+255,Will Forte,546000000,14,$39.00 ,The LEGO Movie,257800000
+256,Ben Foster,545000000,24,$22.70 ,Lone Survivor,125100000
+257,Jodie Foster,1058500000,27,$39.20 ,Silence of the Lambs,130700000
+258,Megan Fox,1098900000,10,$109.90 ,Transformers 2,402100000
+259,Jamie Foxx,2184800000,32,$68.30 ,The Amazing Spider-Man 2,202900000
+260,Claire Foy,100600000,6,$16.80 ,First Man,44900000
+261,Cecile de France,67400000,10,$6.70 ,Hereafter,32700000
+262,Dave Franco,941300000,12,$78.40 ,The LEGO Movie,257800000
+263,James Franco,2288900000,43,$53.20 ,Spider-Man,403700000
+264,Brendan Fraser,1105600000,29,$38.10 ,Mummy Returns,202000000
+265,Martin Freeman,2129800000,14,$152.10 ,Black Panther,700100000
+266,Morgan Freeman,4577400000,64,$71.50 ,The Dark Knight,535200000
+267,Anna Friel,169400000,11,$15.40 ,Limitless,79200000
+268,Nick Frost,466600000,13,$35.90 ,Snow White and the Huntsman,155300000
+269,Josh Gad,1487400000,15,$99.20 ,Beauty and the Beast,504000000
+270,Gal Gadot,1994000000,12,$166.20 ,Wonder Woman,412600000
+271,Zach Galifianakis,1658800000,22,$75.40 ,The Hangover,277300000
+272,Kyle Gallner,596000000,14,$42.60 ,American Sniper,350100000
+273,Vincent Gallo,5100000,8,$635k,Buffalo '66,2400000
+274,James Gandolfini,578200000,28,$20.60 ,Crimson Tide,91400000
+275,Romola Garai,134400000,11,$12.20 ,Atonement,50900000
+276,Andrew Garfield,663500000,13,$51.00 ,The Amazing Spider-Man,262000000
+277,James Garner,481500000,13,$37.00 ,Maverick,101600000
+278,Jennifer Garner,1122100000,26,$43.20 ,Juno,143500000
+279,Sarah Michelle Gellar,627800000,13,$48.30 ,Scooby-Doo,153300000
+280,Richard Gere,1413900000,44,$32.10 ,Pretty Woman,178400000
+281,Ricky Gervais,764600000,10,$76.50 ,Night at the Museum,250900000
+282,Greta Gerwig,188200000,18,$10.50 ,No Strings Attached,70700000
+283,Paul Giamatti,1905200000,47,$40.50 ,The Hangover Part II,254500000
+284,Mel Gibson,2217900000,35,$63.40 ,Signs,228000000
+285,Tyrese Gibson,2565900000,17,$150.90 ,Transformers 2,402100000
+286,Cam Gigandet,534100000,12,$44.50 ,Twilight,192800000
+287,Karen Gillan,2377200000,10,$237.70 ,Avengers: Infinity War,678800000
+288,Terry Gilliam,20200,1,$20.2k,Absolutely Anything,20200
+289,Brendan Gleeson,1879600000,46,$40.90 ,Harry Potter / Goblet of Fire,290200000
+290,Danny Glover,1615400000,46,$35.10 ,2012,166100000
+291,Donald Glover,1027400000,9,$114.20 ,Spider-Man: Homecoming,334200000
+292,Jeff Goldblum,2423100000,31,$78.20 ,Jurassic World 2,417700000
+293,Bobcat Goldthwait,1500,1,$1.5k,Henchmen,1500
+294,Selena Gomez,559600000,8,$69.90 ,Hotel Transylvania 2,169700000
+295,Matthew Goode,305900000,13,$23.50 ,Watchmen,107500000
+296,"Cuba Gooding, Jr.",1335000000,28,$47.70 ,Pearl Harbor,198500000
+297,John Goodman,2237400000,41,$54.60 ,"Monsters, Inc.",289900000
+298,Ginnifer Goodwin,657300000,9,$73.00 ,Zootopia,341300000
+299,Keith Gordon,91300000,1,$91.30 ,Back to School,91300000
+300,Zachary Gordon,165700000,3,$55.20 ,Diary of a Wimpy Kid,64000000
+301,Joseph Gordon-Levitt,1578600000,34,$46.40 ,The Dark Knight Rises,448100000
+302,Ryan Gosling,798900000,23,$34.70 ,La La Land,151100000
+303,Topher Grace,874100000,16,$54.60 ,Spider-Man 3,336500000
+304,Kelsey Grammer,684200000,12,$57.00 ,Transformers 4,245400000
+305,Hugh Grant,971400000,29,$33.50 ,Notting Hill,116100000
+306,Eva Green,683000000,13,$52.50 ,Casino Royale,167400000
+307,Seth Green,962800000,20,$48.10 ,Goldmember,213300000
+308,Ashley Greene,1368800000,11,$124.40 ,The Twilight Saga: Eclipse,300500000
+309,Clark Gregg,2025700000,17,$119.20 ,The Avengers,623400000
+310,Frank Grillo,1304500000,17,$76.70 ,Captain America 3,408100000
+311,Rupert Grint,2392000000,13,$184.00 ,Harry Potter / Deathly Hallows (P2),381200000
+312,Ioan Gruffudd,631300000,15,$42.10 ,San Andreas,155200000
+313,Christopher Guest,182800000,2,$91.40 ,Night at the Museum II,177200000
+314,Carla Gugino,1419100000,26,$54.60 ,Night at the Museum,250900000
+315,Ryan Guzman,85400000,4,$21.40 ,The Boy Next Door,35400000
+316,Jake Gyllenhaal,937300000,29,$32.30 ,The Day After Tomorrow,186700000
+317,Maggie Gyllenhaal,977300000,26,$37.60 ,The Dark Knight,535200000
+318,Lukas Haas,488200000,24,$20.30 ,The Revenant,183600000
+319,Tiffany Haddish,431700000,9,$48.00 ,Girls Trip,115200000
+320,Corey Haim,141100000,10,$14.10 ,The Lost Boys,32200000
+321,Jackie Earle Haley,725200000,17,$42.70 ,Shutter Island,128000000
+322,Rebecca Hall,735300000,20,$36.80 ,Iron Man 3,409000000
+323,Regina Hall,1126700000,21,$53.70 ,Scary Movie,157000000
+324,Mark Hamill,2797100000,13,$215.20 ,Star Wars: The Force Awakens,936700000
+325,Linda Hamilton,332300000,6,$55.40 ,Terminator 2,205900000
+326,Jon Hamm,868100000,17,$51.10 ,Minions,336000000
+327,Armie Hammer,585600000,15,$39.00 ,Cars 3,152900000
+328,Tom Hanks,4606800000,48,$96.00 ,Toy Story 3,415000000
+329,Tom Hardy,1678800000,20,$83.90 ,The Dark Knight Rises,448100000
+330,Woody Harrelson,3479300000,59,$59.00 ,Catching Fire,424700000
+331,Ed Harris,1793000000,51,$35.20 ,National Treasure: Book of Secrets,220000000
+332,Jamie Harris,314400000,7,$44.90 ,Rise of the Planet of the Apes,176800000
+333,Jared Harris,851500000,27,$31.50 ,Sherlock Holmes 2,186800000
+334,Naomie Harris,1664000000,19,$87.60 ,Dead Man's Chest,423300000
+335,Neil Patrick Harris,836000000,15,$55.70 ,Gone Girl,167800000
+336,Kevin Hart,2107800000,25,$84.30 ,Jumanji (2017),404600000
+337,Josh Hartnett,679100000,21,$32.30 ,Pearl Harbor,198500000
+338,Anne Hathaway,2568300000,28,$91.70 ,The Dark Knight Rises,448100000
+339,Rutger Hauer,295300000,29,$10.20 ,Sin City,74100000
+340,Ethan Hawke,839700000,52,$16.10 ,Dead Poets Society,95900000
+341,Sally Hawkins,447600000,18,$24.90 ,Godzilla,200700000
+342,Goldie Hawn,711200000,19,$37.40 ,First Wives Club,105500000
+343,Salma Hayek,1092800000,23,$47.50 ,Grown Ups,162000000
+344,Lena Headey,577200000,23,$25.10 ,300,210600000
+345,Amber Heard,854700000,18,$47.50 ,Aquaman,335100000
+346,Jon Heder,348200000,10,$34.80 ,Blades of Glory,118600000
+347,Garrett Hedlund,598200000,13,$46.00 ,Tron Legacy,172100000
+348,Katherine Heigl,785400000,18,$43.60 ,Knocked Up,148800000
+349,Ed Helms,1301700000,17,$76.60 ,The Hangover,277300000
+350,Chris Hemsworth,3533000000,20,$176.70 ,Avengers: Infinity War,678800000
+351,Liam Hemsworth,1792000000,11,$162.90 ,Catching Fire,424700000
+352,Lance Henriksen,548400000,24,$22.90 ,Scream 3,89100000
+353,Taraji P. Henson,1424500000,25,$57.00 ,Wreck-It Ralph 2,201100000
+354,Katharine Hepburn,194600000,5,$38.90 ,On Golden Pond,119300000
+355,Werner Herzog,80400000,4,$20.10 ,Jack Reacher,80100000
+356,Grant Heslov,67100000,1,$67.10 ,Dante's Peak,67100000
+357,Jennifer Love Hewitt,333600000,12,$27.80 ,Garfield,75400000
+358,Tom Hiddleston,2806100000,17,$165.10 ,Avengers: Infinity War,678800000
+359,Freddie Highmore,404700000,10,$40.50 ,Charlie and the Chocolate Factory,206500000
+360,Jonah Hill,2887000000,32,$90.20 ,The LEGO Movie,257800000
+361,Kristofer Hivju,304900000,5,$61.00 ,Fate of the Furious,226000000
+362,Dustin Hoffman,2522100000,43,$58.70 ,Meet the Fockers,279300000
+363,Philip Seymour Hoffman,2464300000,40,$61.60 ,Catching Fire,424700000
+364,Boyd Holbrook,335400000,6,$55.90 ,Logan,226300000
+365,Tom Holland,1946700000,9,$216.30 ,Avengers: Infinity War,678800000
+366,Ian Holm,1307600000,30,$43.60 ,Return of the King,377800000
+367,Katie Holmes,601500000,23,$26.20 ,Batman Begins,206900000
+368,Anthony Hopkins,2480800000,57,$43.50 ,Thor: Ragnarok,315100000
+369,Cody Horn,154900000,4,$38.70 ,Magic Mike,113700000
+370,Thomas Horn,31800000,1,$31.80 ,Extremely Loud & Incredibly Close,31800000
+371,Adam Horowitz,41900,1,$41.9k,Golden Exits,41900
+372,Julianne Hough,236800000,6,$39.50 ,Safe Haven,71300000
+373,Nicholas Hoult,887600000,14,$63.40 ,X-Men: Days of Future Past,233900000
+374,Djimon Hounsou,2231700000,23,$97.00 ,Captain Marvel,416000000
+375,Whitney Houston,264600000,5,$52.90 ,Bodyguard,122000000
+376,Bryce Dallas Howard,2009300000,12,$167.40 ,Jurassic World,652300000
+377,Ron Howard,139100000,4,$34.80 ,American Graffiti,115000000
+378,Terrence Howard,1399000000,34,$41.10 ,Iron Man,318400000
+379,Vanessa Hudgens,333500000,11,$30.30 ,Journey 2,103900000
+380,Kate Hudson,828100000,27,$30.70 ,Kung Fu Panda 3,143500000
+381,Bonnie Hunt,1741700000,19,$91.70 ,Zootopia,341300000
+382,Helen Hunt,1007100000,21,$48.00 ,Twister,241700000
+383,Holly Hunter,1738600000,30,$58.00 ,Incredibles 2,608600000
+384,Rosie Huntington-Whiteley,506400000,2,$253.20 ,Transformers 3,352400000
+385,William Hurt,2049500000,32,$64.00 ,Avengers: Infinity War,678800000
+386,Josh Hutcherson,2115800000,18,$117.50 ,Catching Fire,424700000
+387,Rhys Ifans,700200000,28,$25.00 ,The Amazing Spider-Man,262000000
+388,Dustin Ingram,104100000,2,$52.00 ,Paranormal Activity 3,104000000
+389,Jeremy Irons,1523000000,30,$50.80 ,Lion King,422800000
+390,Max Irons,98200000,5,$19.60 ,Red Riding Hood,37700000
+391,Oscar Isaac,2024800000,22,$92.00 ,Star Wars: The Force Awakens,936700000
+392,Tony Jaa,414900000,10,$41.50 ,Furious 7,353000000
+393,Hugh Jackman,2707600000,29,$93.40 ,X-Men: The Last Stand,234400000
+394,Brandon T. Jackson,407900000,8,$51.00 ,Tropic Thunder,110500000
+395,Quinton 'Rampage' Jackson,77300000,3,$25.80 ,The A-Team,77200000
+396,Samuel L. Jackson,6687500000,77,$86.90 ,The Avengers,623400000
+397,Kevin James,1557500000,14,$111.20 ,Hitch,179500000
+398,Theo James,440200000,6,$73.40 ,Divergent,150900000
+399,Thomas Jane,266000000,19,$14.00 ,Deep Blue Sea,73600000
+400,Allison Janney,1278100000,22,$58.10 ,Minions,336000000
+401,Famke Janssen,1428600000,31,$46.10 ,X-Men: The Last Stand,234400000
+402,Jim Jarmusch,1300000,1,$1.30 ,Blue in the Face,1300000
+403,Scarlett Johansson,4838100000,43,$112.50 ,Avengers: Infinity War,678800000
+404,Aaron Johnson,874300000,12,$72.90 ,Avengers: Age of Ultron,459000000
+405,Dakota Johnson,556500000,9,$61.80 ,Fifty Shades of Grey,166200000
+406,Dwayne Johnson,3404600000,30,$113.50 ,Jumanji (2017),404600000
+407,Jake Johnson,1001300000,10,$100.10 ,Jurassic World,652300000
+408,Angelina Jolie,2179500000,32,$68.10 ,Maleficent,241400000
+409,Nick Jonas,404600000,2,$202.30 ,Jumanji (2017),404600000
+410,Felicity Jones,647300000,15,$43.20 ,Rogue One,532200000
+411,January Jones,378100000,9,$42.00 ,X-Men: First Class,146400000
+412,Rashida Jones,628500000,12,$52.40 ,The Grinch,270600000
+413,Tommy Lee Jones,2699200000,48,$56.20 ,Men in Black,250700000
+414,Michael B. Jordan,1088400000,7,$155.50 ,Black Panther,700100000
+415,Seu Jorge,36100000,7,$5.20 ,The Life Aquatic,24000000
+416,Milla Jovovich,552800000,27,$20.50 ,Fifth Element,63800000
+417,Ashley Judd,1086200000,29,$37.50 ,Divergent,150900000
+418,Miranda July,4600000,3,$1.50 ,Me and You and Everyone We Know,3900000
+419,Mindy Kaling,711600000,5,$142.30 ,Inside Out,356500000
+420,Philip Kaufman,163200000,8,$20.40 ,Rising Sun,63200000
+421,Zoe Kazan,240100000,16,$15.00 ,It's Complicated,112700000
+422,Diane Keaton,1307800000,38,$34.40 ,The Godfather,135000000
+423,Michael Keaton,2618100000,39,$67.10 ,Toy Story 3,415000000
+424,Minka Kelly,38400000,2,$19.20 ,The Roommate,37300000
+425,Alex Kendrick,78200000,3,$26.10 ,Courageous,34500000
+426,Anna Kendrick,1123300000,24,$46.80 ,Pitch Perfect 2,184300000
+427,Irrfan Khan,1221500000,9,$135.70 ,Jurassic World,652300000
+428,Nicole Kidman,2182600000,52,$42.00 ,Aquaman,335100000
+429,Val Kilmer,1041300000,35,$29.80 ,Batman Forever,184000000
+430,Joey King,752800000,12,$62.70 ,Oz The Great and Powerful,234900000
+431,Ben Kingsley,2084500000,53,$39.30 ,Iron Man 3,409000000
+432,Greg Kinnear,1154500000,36,$32.10 ,As Good as It Gets,148500000
+433,Rory Kinnear,168500000,3,$56.20 ,Quantum of Solace,168400000
+434,Taylor Kitsch,606300000,10,$60.60 ,X-Men Origins: Wolverine,179900000
+435,Chris Klein,481600000,14,$34.40 ,American Pie 2,145100000
+436,Kevin Kline,1496000000,40,$37.40 ,Beauty and the Beast,504000000
+437,Keira Knightley,1626300000,28,$58.10 ,Dead Man's Chest,423300000
+438,Beyonce Knowles,613100000,7,$87.60 ,Goldmember,213300000
+439,Johnny Knoxville,936200000,18,$52.00 ,Ninja Turtles,191200000
+440,Boris Kodjoe,370800000,9,$41.20 ,Ferdinand,84400000
+441,John Krasinski,603300000,19,$31.80 ,A Quiet Place,188000000
+442,Peter Krause,155600000,4,$38.90 ,Truman Show,125600000
+443,Lenny Kravitz,996900000,4,$249.20 ,Catching Fire,424700000
+444,Lisa Kudrow,688400000,21,$32.80 ,The Boss Baby,175000000
+445,Mila Kunis,1249100000,20,$62.50 ,Oz The Great and Powerful,234900000
+446,Olga Kurylenko,404500000,15,$27.00 ,Quantum of Solace,168400000
+447,Ashton Kutcher,957400000,20,$47.90 ,Cheaper by the Dozen,138600000
+448,Shia LaBeouf,2129400000,22,$96.80 ,Transformers 2,402100000
+449,Diane Lane,2027800000,43,$47.20 ,Inside Out,356500000
+450,Jessica Lange,410900000,13,$31.60 ,Tootsie,177200000
+451,Frank Langella,679500000,32,$21.20 ,Superman Returns,200100000
+452,Larry the Cable Guy,617000000,7,$88.10 ,Cars,244100000
+453,Brie Larson,1377900000,11,$125.30 ,Avengers: Endgame,452400000
+454,Ali Larter,552700000,12,$46.10 ,Legally Blonde,96500000
+455,Sanaa Lathan,488800000,15,$32.60 ,Alien Vs. Predator,80300000
+456,Queen Latifah,2049900000,31,$66.10 ,Ice Age 3,196600000
+457,Melanie Laurent,263400000,8,$32.90 ,Inglourious Basterds,120500000
+458,Hugh Laurie,890300000,17,$52.40 ,Monsters Vs. Aliens,198400000
+459,Taylor Lautner,1482200000,8,$185.30 ,The Twilight Saga: Eclipse,300500000
+460,Jude Law,2247400000,43,$52.30 ,Captain Marvel,416000000
+461,Jennifer Lawrence,2533600000,20,$126.70 ,Catching Fire,424700000
+462,Martin Lawrence,1294400000,25,$51.80 ,Wild Hogs,168300000
+463,Sharon Leal,297300000,7,$42.50 ,Dreamgirls,103400000
+464,Matt LeBlanc,73600000,3,$24.50 ,Lost in Space,69100000
+465,Heath Ledger,955900000,15,$63.70 ,The Dark Knight,535200000
+466,Christopher Lee,1666400000,8,$208.30 ,Revenge of the Sith,380300000
+467,John Leguizamo,1982000000,53,$37.40 ,Ice Age 3,196600000
+468,Melissa Leo,880300000,32,$27.50 ,The Equalizer 2,102100000
+469,Tea Leoni,730200000,13,$56.20 ,Jurassic Park III,181200000
+470,Logan Lerman,510000000,15,$34.00 ,Noah,101200000
+471,Jared Leto,631100000,12,$52.60 ,Suicide Squad,325100000
+472,Tracy Letts,138300000,7,$19.80 ,The Post,81900000
+473,Zachary Levi,829500000,7,$118.50 ,Alvin and the Chipmunks 2,219600000
+474,Jet Li,822200000,18,$45.70 ,Lethal Weapon 4,130400000
+475,Matthew Lillard,716700000,25,$28.70 ,Scooby-Doo,153300000
+476,Evangeline Lilly,1448200000,6,$241.40 ,Avengers: Endgame,452400000
+477,Laura Linney,979300000,37,$26.50 ,Truman Show,125600000
+478,Lucy Liu,1038300000,18,$57.70 ,Kung Fu Panda,215400000
+479,Blake Lively,538600000,12,$44.90 ,Green Lantern,116600000
+480,Ron Livingston,485800000,28,$17.30 ,The Conjuring,137400000
+481,Lindsay Lohan,492400000,15,$32.80 ,Freaky Friday,110200000
+482,Justin Long,1541000000,35,$44.00 ,Alvin and the Chipmunks 2,219600000
+483,Nia Long,796500000,22,$36.20 ,Big Momma's House,117600000
+484,Jennifer Lopez,1293700000,28,$46.20 ,Home,177400000
+485,Rob Lowe,703600000,25,$28.10 ,The Spy Who Shagged Me,206000000
+486,Jessica Lucas,229300000,5,$45.90 ,Cloverfield,80000000
+487,Josh Lucas,791100000,24,$33.00 ,A Beautiful Mind,170700000
+488,Derek Luke,582800000,17,$34.30 ,Captain America,176700000
+489,Diego Luna,901900000,16,$56.40 ,Rogue One,532200000
+490,Kellan Lutz,1537400000,17,$90.40 ,The Twilight Saga: Eclipse,300500000
+491,David Lynch,956000,1,$956k,Lucky (2017),956000
+492,Bernie Mac,989600000,14,$70.70 ,Ocean's Eleven,183400000
+493,Seth MacFarlane,777600000,7,$111.10 ,Sing,270400000
+494,Anthony Mackie,3045100000,37,$82.30 ,Avengers: Infinity War,678800000
+495,William H. Macy,1246200000,39,$32.00 ,Jurassic Park III,181200000
+496,Madonna,349300000,14,$24.90 ,League of Their Own,107500000
+497,Virginia Madsen,476000000,31,$15.40 ,Sideways,71500000
+498,Tobey Maguire,1537500000,14,$109.80 ,Spider-Man,403700000
+499,John Malkovich,1585700000,51,$31.10 ,Transformers 3,352400000
+500,Jena Malone,1321400000,24,$55.10 ,Catching Fire,424700000
+501,Leslie Mann,1545800000,27,$57.30 ,Big Daddy,163500000
+502,Thomas Mann,307400000,7,$43.90 ,Kong: Skull Island,168100000
+503,Kate Mara,468200000,15,$31.20 ,The Martian,228400000
+504,Rooney Mara,487300000,21,$23.20 ,Girl with the Dragon Tattoo,102500000
+505,Brit Marling,17500000,8,$2.20 ,Arbitrage,7900000
+506,James Marsden,1845400000,35,$52.70 ,X-Men: The Last Stand,234400000
+507,Garry Marshall,67200000,1,$67.20 ,Race to Witch Mountain,67200000
+508,Demetri Martin,17600000,4,$4.40 ,Taking Woodstock,7500000
+509,Steve Martin,1786000000,37,$48.30 ,Home,177400000
+510,Peter Mayhew,1997400000,4,$499.40 ,Star Wars: The Force Awakens,936700000
+511,Rachel McAdams,1697400000,26,$65.30 ,Doctor Strange,232600000
+512,Callan McAuliffe,56900000,3,$19.00 ,I Am Number Four,55100000
+513,James McAvoy,1578000000,25,$63.10 ,The Chronicles of Narnia,291700000
+514,Danny McBride,809700000,18,$45.00 ,Tropic Thunder,110500000
+515,Melissa McCarthy,1194200000,16,$74.60 ,Bridesmaids,169100000
+516,Matthew McConaughey,1962000000,41,$47.90 ,Sing,270400000
+517,Ian McDiarmid,1474800000,4,$368.70 ,The Phantom Menace,474500000
+518,Frances McDormand,1448000000,37,$39.10 ,Transformers 3,352400000
+519,Ewan McGregor,2692800000,49,$55.00 ,Beauty and the Beast,504000000
+520,Ian McKellen,3654400000,32,$114.20 ,Beauty and the Beast,504000000
+521,Katherine McPhee,67100000,2,$33.60 ,The House Bunny,48200000
+522,Leighton Meester,264000000,10,$26.40 ,Date Night,98700000
+523,Carlos Mencia,57000000,2,$28.50 ,The Heartbreak Kid,36800000
+524,Ben Mendelsohn,1986800000,28,$71.00 ,Rogue One,532200000
+525,Eva Mendes,873400000,19,$46.00 ,Hitch,179500000
+526,Scott Mescudi,43700000,3,$14.60 ,Need for Speed,43600000
+527,Chris Messina,221200000,18,$12.30 ,Julie & Julia,94100000
+528,Chrissy Metz,28800000,1,$28.80 ,Breakthrough,28800000
+529,Breckin Meyer,433600000,12,$36.10 ,Garfield,75400000
+530,Jonathan Rhys Meyers,336000000,18,$18.70 ,Mission: Impossible III,134000000
+531,Alyson Michalka,100900000,3,$33.60 ,Easy A,58400000
+532,Bette Midler,754600000,21,$35.90 ,First Wives Club,105500000
+533,Mads Mikkelsen,1176500000,17,$69.20 ,Rogue One,532200000
+534,Ezra Miller,759700000,12,$63.30 ,Fantastic Beasts and Where To Find Them,234000000
+535,Nicki Minaj,137900000,2,$69.00 ,The Other Woman,83900000
+536,Christopher Mintz-Plasse,1278600000,14,$91.30 ,How to Train Your Dragon,217600000
+537,Helen Mirren,1630000000,49,$33.30 ,Monsters University,268500000
+538,John Cameron Mitchell,9300000,3,$3.10 ,Band of the Hand,4900000
+539,Radha Mitchell,600000000,24,$25.00 ,Olympus Has Fallen,98900000
+540,Alfred Molina,1173800000,43,$27.30 ,Spider-Man 2,373600000
+541,Jason Momoa,595100000,6,$99.20 ,Aquaman,335100000
+542,Michelle Monaghan,939500000,21,$44.70 ,Mission: Impossible 6,220200000
+543,Demi Moore,1025300000,32,$32.00 ,Ghost,217600000
+544,Joel David Moore,915100000,14,$65.40 ,Avatar,760500000
+545,Julianne Moore,2086600000,60,$34.80 ,Mockingjay Part 1,337100000
+546,Mandy Moore,478500000,14,$34.20 ,Tangled,200800000
+547,Michael Moore,149000,1,$149k,Michael Moore In TrumpLand,149000
+548,Roger Moore,587800000,15,$39.20 ,The Cannonball Run,72200000
+549,Chloe Moretz,800600000,23,$34.80 ,The Equalizer,101500000
+550,Jeffrey Dean Morgan,289600000,14,$20.70 ,Watchmen,107500000
+551,Tracy Morgan,583700000,15,$38.90 ,Rio 2,131500000
+552,Viggo Mortensen,1615300000,30,$53.80 ,Return of the King,377800000
+553,Carrie-Anne Moss,872500000,17,$51.30 ,The Matrix Reloaded,281600000
+554,Elisabeth Moss,309300000,20,$15.50 ,Us,173300000
+555,Bridget Moynahan,696600000,13,$53.60 ,"I, Robot",144800000
+556,Carey Mulligan,321000000,12,$26.80 ,The Great Gatsby,144800000
+557,Frankie Muniz,233000000,7,$33.30 ,Racing Stripes,49800000
+558,Brittany Murphy,706900000,16,$44.20 ,Happy Feet,198000000
+559,Cillian Murphy,902200000,19,$47.50 ,Inception,292600000
+560,Eddie Murphy,3811100000,39,$97.70 ,Shrek 2,441200000
+561,Bill Murray,2086500000,44,$47.40 ,The Jungle Book,364000000
+562,Mike Myers,2427800000,16,$151.70 ,Shrek 2,441200000
+563,Kumail Nanjiani,536700000,13,$41.30 ,Central Intelligence,127400000
+564,Naturi Naughton,47200000,2,$23.60 ,Lottery Ticket,24700000
+565,Liam Neeson,3067200000,69,$44.50 ,The Phantom Menace,474500000
+566,Craig T. Nelson,1799300000,23,$78.20 ,Incredibles 2,608600000
+567,Paul Newman,1082000000,20,$54.10 ,Cars,244100000
+568,Kathryn Newton,321700000,6,$53.60 ,Bad Teacher,100300000
+569,Thandie Newton,1117800000,24,$46.60 ,Mission: Impossible II,215400000
+570,Mike Nichols,215000,1,$215k,The Designated Mourner,215000
+571,Jack Nicholson,1796000000,34,$52.80 ,Batman,251200000
+572,Leslie Nielsen,617900000,19,$32.50 ,Scary Movie 3,110000000
+573,Leonard Nimoy,820300000,11,$74.60 ,Star Trek,257700000
+574,Chuck Norris,279700000,17,$16.50 ,The Expendables 2,85000000
+575,Dean Norris,110900000,8,$13.90 ,Death Wish (2018),34000000
+576,Edward Norton,1103700000,26,$42.50 ,The Incredible Hulk,134800000
+577,Lupita Nyong'o,2951900000,8,$369.00 ,Star Wars: The Force Awakens,936700000
+578,Michael Nyqvist,319400000,10,$31.90 ,Mission: Impossible 4,209400000
+579,Jack O'Connell,269200000,9,$29.90 ,Unbroken,115600000
+580,Chris O'Donnell,779300000,19,$41.00 ,Batman Forever,184000000
+581,Jason O'Mara,77300000,3,$25.80 ,Resident Evil: Extinction,50600000
+582,Sophie Okonedo,125200000,8,$15.60 ,The Secret Life of Bees,37800000
+583,Gary Oldman,3450300000,42,$82.20 ,The Dark Knight,535200000
+584,Elizabeth Olsen,2257800000,17,$132.80 ,Avengers: Infinity War,678800000
+585,Mary-Kate Olsen,63500000,4,$15.90 ,Beastly,27900000
+586,Timothy Olyphant,711700000,23,$30.90 ,Live Free or Die Hard,134500000
+587,Clive Owen,547700000,26,$21.10 ,Inside Man,88500000
+588,David Oyelowo,622400000,16,$38.90 ,Rise of the Planet of the Apes,176800000
+589,Lee Pace,1955400000,18,$108.60 ,Captain Marvel,416000000
+590,Al Pacino,1457300000,39,$37.40 ,The Godfather,135000000
+591,Ellen Page,730900000,17,$43.00 ,Inception,292600000
+592,Adrianne Palicki,210400000,4,$52.60 ,G.I. Joe: Retaliation,122500000
+593,Teresa Palmer,536100000,17,$31.50 ,Bedtime Stories,110100000
+594,Gwyneth Paltrow,2965100000,35,$84.70 ,Avengers: Infinity War,678800000
+595,Hayden Panettiere,338400000,12,$28.20 ,Remember the Titans,115700000
+596,Anna Paquin,997600000,20,$49.90 ,X-Men: The Last Stand,234400000
+597,Sarah Jessica Parker,990600000,29,$34.20 ,Sex and the City,152600000
+598,Trey Parker,264600000,1,$264.60 ,Despicable Me 3,264600000
+599,Dev Patel,449500000,10,$45.00 ,Slumdog Millionaire,141300000
+600,Robert Pattinson,1745900000,16,$109.10 ,The Twilight Saga: Eclipse,300500000
+601,Paula Patton,631300000,14,$45.10 ,Mission: Impossible 4,209400000
+602,Sarah Paulson,549200000,15,$36.60 ,Ocean's 8,140200000
+603,Bill Paxton,1550600000,18,$86.10 ,Titanic,659400000
+604,Guy Pearce,1213200000,34,$35.70 ,Iron Man 3,409000000
+605,Jordan Peele,167200000,3,$55.70 ,Captain Underpants,73900000
+606,Amanda Peet,882000000,26,$33.90 ,2012,166100000
+607,Simon Pegg,2978000000,23,$129.50 ,Star Wars: The Force Awakens,936700000
+608,Michael Pena,1900700000,29,$65.50 ,The Martian,228400000
+609,Kal Penn,415200000,13,$31.90 ,Superman Returns,200100000
+610,Sean Penn,867600000,39,$22.20 ,Angry Birds,107500000
+611,Piper Perabo,581200000,16,$36.30 ,Cheaper by the Dozen,138600000
+612,Ron Perlman,942000000,23,$41.00 ,Fantastic Beasts and Where To Find Them,234000000
+613,Alex Ross Perry,28200,1,$28.2k,7 Chinese Brothers,28200
+614,Matthew Perry,200900000,7,$28.70 ,17 Again,64200000
+615,Tyler Perry,1231100000,21,$58.60 ,Gone Girl,167800000
+616,Alex Pettyfer,259400000,7,$37.10 ,Magic Mike,113700000
+617,Michelle Pfeiffer,1768500000,40,$44.20 ,Ant-Man and the Wasp,216600000
+618,Ryan Phillippe,415100000,17,$24.40 ,I Know What You Did Last Summer,72600000
+619,Joaquin Phoenix,1020500000,31,$32.90 ,Signs,228000000
+620,Rosamund Pike,746600000,23,$32.50 ,Gone Girl,167800000
+621,Chris Pine,1850900000,21,$88.10 ,Wonder Woman,412600000
+622,Jada Pinkett-Smith,1927800000,24,$80.30 ,The Matrix Reloaded,281600000
+623,Freida Pinto,406200000,8,$50.80 ,Rise of the Planet of the Apes,176800000
+624,Brad Pitt,2721100000,42,$64.80 ,World War Z,202400000
+625,Aubrey Plaza,178600000,14,$12.80 ,Funny People,51900000
+626,Jesse Plemons,551500000,15,$36.80 ,The Post,81900000
+627,Christopher Plummer,1389700000,34,$40.90 ,National Treasure,173000000
+628,Sidney Poitier,86000000,2,$43.00 ,Guess Who's Coming to Dinner,56700000
+629,Sydney Pollack,533300000,10,$53.30 ,Tootsie,177200000
+630,Sarah Polley,116200000,19,$6.10 ,Dawn of the Dead,59000000
+631,Imogen Poots,136600000,17,$8.00 ,Need for Speed,43600000
+632,Natalie Portman,2111100000,32,$66.00 ,The Phantom Menace,474500000
+633,Parker Posey,599700000,34,$17.60 ,Superman Returns,200100000
+634,Franka Potente,360000000,9,$40.00 ,The Bourne Supremacy,176200000
+635,Bel Powley,25900000,7,$3.70 ,White Boy Rick,24000000
+636,Chris Pratt,3739300000,20,$187.00 ,Avengers: Infinity War,678800000
+637,"Freddie Prinze, Jr.",518700000,16,$32.40 ,Scooby-Doo,153300000
+638,Jonathan Pryce,1583100000,35,$45.20 ,Dead Man's Chest,423300000
+639,James Purefoy,187900000,6,$31.30 ,John Carter,73100000
+640,Dennis Quaid,1841100000,58,$31.70 ,The Day After Tomorrow,186700000
+641,Randy Quaid,948700000,38,$25.00 ,Independence Day,306200000
+642,Daniel Radcliffe,2636000000,17,$155.10 ,Harry Potter / Deathly Hallows (P2),381200000
+643,Josh Radnor,718000,3,$239k,Liberal Arts,327000
+644,Edgar Ramirez,620300000,11,$56.40 ,The Bourne Ultimatum,227500000
+645,Harold Ramis,11600000,1,$11.60 ,The Last Kiss (2006),11600000
+646,Noomi Rapace,359400000,10,$35.90 ,Sherlock Holmes 2,186800000
+647,Emily Ratajkowski,52400000,2,$26.20 ,I Feel Pretty,48800000
+648,Jackson Rathbone,1307300000,6,$217.90 ,The Twilight Saga: Eclipse,300500000
+649,Max Records,107700000,2,$53.80 ,Where the Wild Things Are,77200000
+650,Lance Reddick,120600000,6,$20.10 ,Don't Say a Word,55000000
+651,Robert Redford,1654600000,32,$51.70 ,Captain America 2,259800000
+652,Eddie Redmayne,686800000,11,$62.40 ,Fantastic Beasts and Where To Find Them,234000000
+653,Crystal Reed,21500000,2,$10.70 ,Skyline,21400000
+654,Christopher Reeve,427800000,15,$28.50 ,Superman,134500000
+655,Keanu Reeves,1963400000,47,$41.80 ,The Matrix Reloaded,281600000
+656,John C. Reilly,2221000000,41,$54.20 ,Guardians of the Galaxy,333200000
+657,Rob Reiner,117000000,2,$58.50 ,The Wolf of Wall Street,116900000
+658,Jeremy Renner,3141800000,25,$125.70 ,The Avengers,623400000
+659,Ryan Reynolds,2076800000,34,$61.10 ,Deadpool,363100000
+660,Giovanni Ribisi,1928400000,32,$60.30 ,Avatar,760500000
+661,Christina Ricci,743700000,35,$21.20 ,Addams Family,113500000
+662,Denise Richards,365600000,12,$30.50 ,World Is Not Enough,126900000
+663,Alan Rickman,1784200000,27,$66.10 ,Harry Potter / Deathly Hallows (P2),381200000
+664,Daisy Ridley,1774900000,4,$443.70 ,Star Wars: The Force Awakens,936700000
+665,Rob Riggle,993700000,16,$62.10 ,The Lorax,214000000
+666,Noah Ringer,131800000,1,$131.80 ,The Last Airbender,131800000
+667,AnnaSophia Robb,272800000,9,$30.30 ,Bridge to Terabithia,82300000
+668,Margot Robbie,824500000,11,$75.00 ,Suicide Squad,325100000
+669,Tim Robbins,890500000,38,$23.40 ,War of the Worlds,234300000
+670,Emma Roberts,468200000,20,$23.40 ,We're the Millers,150400000
+671,Julia Roberts,2916500000,45,$64.80 ,Ocean's Eleven,183400000
+672,Chris Rock,1603000000,23,$69.70 ,Madagascar 3,216400000
+673,Sam Rockwell,1167400000,39,$29.90 ,Iron Man 2,312400000
+674,Gina Rodriguez,341000000,9,$37.90 ,Ferdinand,84400000
+675,Michelle Rodriguez,2410600000,20,$120.50 ,Avatar,760500000
+676,Seth Rogen,2229500000,26,$85.70 ,Kung Fu Panda,215400000
+677,Elisabeth Rohm,56500000,1,$56.50 ,Joy,56500000
+678,Rebecca Romijn,680400000,8,$85.10 ,X-Men: The Last Stand,234400000
+679,Saoirse Ronan,337800000,17,$19.90 ,The Grand Budapest Hotel,59300000
+680,Michael Rooker,1439400000,32,$45.00 ,Guardians of the Galaxy 2,389800000
+681,Emmy Rossum,363300000,13,$27.90 ,The Day After Tomorrow,186700000
+682,Eli Roth,58500,1,$58.5k,Aftershock,58500
+683,Jessica Rothe,251300000,7,$35.90 ,La La Land,151100000
+684,Mickey Rourke,842300000,36,$23.40 ,Iron Man 2,312400000
+685,Brandon Routh,203100000,3,$67.70 ,Superman Returns,200100000
+686,Gena Rowlands,358200000,21,$17.10 ,The Notebook,81000000
+687,Paul Rudd,2499400000,36,$69.40 ,Avengers: Endgame,452400000
+688,Mark Ruffalo,3358700000,37,$90.80 ,Avengers: Infinity War,678800000
+689,Geoffrey Rush,1714800000,32,$53.60 ,Pirates of the Caribbean 3,309400000
+690,Alex Russell,180200000,4,$45.10 ,Unbroken,115600000
+691,Kurt Russell,2208400000,37,$59.70 ,Guardians of the Galaxy 2,389800000
+692,Rene Russo,1530000000,23,$66.50 ,Thor: The Dark World,206400000
+693,Amy Ryan,511700000,21,$24.40 ,Central Intelligence,127400000
+694,Meg Ryan,1151900000,29,$39.70 ,Top Gun,179800000
+695,Winona Ryder,917100000,36,$25.50 ,Mr. Deeds,126300000
+696,Mark Rylance,497200000,7,$71.00 ,Dunkirk,189700000
+697,Katee Sackhoff,100100000,3,$33.40 ,Riddick,42000000
+698,Zoe Saldana,3786700000,31,$122.20 ,Avatar,760500000
+699,Carlos Saldanha,84400000,1,$84.40 ,Ferdinand,84400000
+700,Andy Samberg,865700000,13,$66.60 ,Hotel Transylvania 2,169700000
+701,Adam Sandler,2828500000,33,$85.70 ,Hotel Transylvania 2,169700000
+702,Rodrigo Santoro,584000000,9,$64.90 ,300,210600000
+703,Susan Sarandon,1498600000,64,$23.40 ,Enchanted,127800000
+704,Peter Sarsgaard,712000000,28,$25.40 ,Green Lantern,116600000
+705,Akiva Schaffer,9600000,1,$9.60 ,Popstar,9600000
+706,Taylor Schilling,81700000,6,$13.60 ,The Lucky One,60500000
+707,Joseph Schneider,15000,1,$15.0k,I'm Not Jesus Mommy,15000
+708,Rob Schneider,895100000,17,$52.70 ,Big Daddy,163500000
+709,Matthias Schoenaerts,100900000,14,$7.20 ,Red Sparrow,46900000
+710,Liev Schreiber,1187600000,34,$34.90 ,X-Men Origins: Wolverine,179900000
+711,Amy Schumer,214400000,4,$53.60 ,Trainwreck,110200000
+712,Jason Schwartzman,457200000,23,$19.90 ,Saving Mr. Banks,83300000
+713,Arnold Schwarzenegger,1885000000,30,$62.80 ,Terminator 2,205900000
+714,David Schwimmer,683000000,10,$68.30 ,Madagascar 3,216400000
+715,Adam Scott,600000000,27,$22.20 ,Step Brothers,100500000
+716,Steven Seagal,422900000,10,$42.30 ,Under Siege,83600000
+717,Jason Segel,929400000,15,$62.00 ,Despicable Me,251500000
+718,Andy Serkis,4357700000,26,$167.60 ,Star Wars: The Force Awakens,936700000
+719,Chloe Sevigny,108800000,23,$4.70 ,Zodiac,33100000
+720,Rufus Sewell,489100000,21,$23.30 ,Hercules,72700000
+721,Amanda Seyfried,1088200000,27,$40.30 ,Les Miserables,148800000
+722,Tupac Shakur,83100000,6,$13.80 ,Poetic Justice,27500000
+723,Michael Shannon,509500000,23,$22.20 ,Man of Steel,291000000
+724,Suraj Sharma,161400000,2,$80.70 ,Life of Pi,125000000
+725,Charlie Sheen,905900000,31,$29.20 ,Platoon,138500000
+726,Michael Sheen,1603100000,28,$57.30 ,Alice in Wonderland,334200000
+727,Tye Sheridan,332800000,9,$37.00 ,X-Men: Apocalypse,155400000
+728,M. Night Shyamalan,42300000,1,$42.30 ,Lady in the Water,42300000
+729,Gabourey Sidibe,132500000,4,$33.10 ,Tower Heist,78000000
+730,Sebastián Silva,79800,1,$79.8k,Nasty Baby,79800
+731,Alicia Silverstone,445600000,18,$24.80 ,Batman and Robin,107300000
+732,Stellan Skarsgard,3296300000,46,$71.70 ,The Avengers,623400000
+733,Alexander Skarsgård,193400000,10,$19.30 ,The Legend of Tarzan,126600000
+734,John Slattery,774600000,12,$64.60 ,Iron Man 2,312400000
+735,Kodi Smit-McPhee,476500000,9,$52.90 ,Dawn of the Planet of the Apes,208500000
+736,Jaden Smith,480000000,4,$120.00 ,The Karate Kid,176600000
+737,Kevin Smith,209900000,7,$30.00 ,Live Free or Die Hard,134500000
+738,Maggie Smith,691700000,24,$28.80 ,Sister Act,139600000
+739,Will Smith,3205000000,25,$128.20 ,Suicide Squad,325100000
+740,Wesley Snipes,976500000,31,$31.50 ,Blade II,82300000
+741,Kang-ho Song,14100000,8,$1.80 ,The Interview (2014),6100000
+742,Mira Sorvino,69900000,13,$5.40 ,Romy & Michele's High School Reunion,29200000
+743,Kevin Spacey,1530200000,40,$38.30 ,Superman Returns,200100000
+744,David Spade,906100000,15,$60.40 ,Hotel Transylvania 2,169700000
+745,Octavia Spencer,1096400000,14,$78.30 ,Zootopia,341300000
+746,Brent Spiner,1037200000,17,$61.00 ,Independence Day,306200000
+747,Morgan Spurlock,638000,1,$638k,POM Wonderful Presents: The Greatest Movie Ever Sold,638000
+748,Sylvester Stallone,2555900000,43,$59.40 ,Guardians of the Galaxy 2,389800000
+749,Sebastian Stan,1896400000,18,$105.40 ,Avengers: Infinity War,678800000
+750,Lakeith Stanfield,521700000,11,$47.40 ,Get Out,176000000
+751,Jason Statham,1654700000,33,$50.10 ,Furious 7,353000000
+752,Imelda Staunton,671400000,16,$42.00 ,Harry Potter / Phoenix,292100000
+753,Hailee Steinfeld,902700000,15,$60.20 ,Spider-Man: Into The Spider-Verse,190200000
+754,Dan Stevens,670200000,9,$74.50 ,Beauty and the Beast,504000000
+755,Ray Stevenson,1166800000,16,$72.90 ,Thor: The Dark World,206400000
+756,Kristen Stewart,1820500000,31,$58.70 ,The Twilight Saga: Eclipse,300500000
+757,Patrick Stewart,1551500000,22,$70.50 ,X-Men: The Last Stand,234400000
+758,Julia Stiles,1041300000,20,$52.10 ,The Bourne Ultimatum,227500000
+759,Ben Stiller,2829100000,38,$74.50 ,Meet the Fockers,279300000
+760,Emma Stone,1593600000,20,$79.70 ,The Amazing Spider-Man,262000000
+761,Sharon Stone,743900000,35,$21.30 ,Total Recall,119400000
+762,Meryl Streep,2413000000,56,$43.10 ,Mary Poppins Returns,172000000
+763,Barbra Streisand,995400000,15,$66.40 ,Meet the Fockers,279300000
+764,Mark Strong,1367200000,39,$35.10 ,Sherlock Holmes,209000000
+765,Jim Sturgess,233300000,13,$17.90 ,21,81200000
+766,Tom Sturridge,23800000,8,$3.00 ,Far from the Madding Crowd,12200000
+767,Jason Sudeikis,921300000,19,$48.50 ,We're the Millers,150400000
+768,Jeremy Sumpter,139900000,4,$35.00 ,Peter Pan,48500000
+769,Kiefer Sutherland,1087500000,36,$30.20 ,Monsters Vs. Aliens,198400000
+770,Hilary Swank,476200000,19,$25.10 ,Million Dollar Baby,100500000
+771,Nick Swardson,792500000,13,$61.00 ,Grown Ups 2,133700000
+772,Patrick Swayze,575100000,24,$24.00 ,Ghost,217600000
+773,Tilda Swinton,1315500000,35,$37.60 ,The Chronicles of Narnia,291700000
+774,Omar Sy,1074700000,7,$153.50 ,Jurassic World,652300000
+775,Jorma Taccone,330800000,4,$82.70 ,The LEGO Movie,257800000
+776,Quentin Tarantino,28700000,2,$14.30 ,From Dusk Till Dawn,25800000
+777,Channing Tatum,2250400000,34,$66.20 ,The LEGO Movie,257800000
+778,Christine Taylor,307900000,7,$44.00 ,DodgeBall,114300000
+779,Aimee Teegarden,10200000,3,$3.40 ,Prom,10100000
+780,Miles Teller,659900000,16,$41.20 ,Divergent,150900000
+781,Juno Temple,396200000,18,$22.00 ,Maleficent,241400000
+782,Charlize Theron,1666400000,38,$43.90 ,Hancock,227900000
+783,Max Thieriot,233500000,9,$25.90 ,The Pacifier,113100000
+784,Olivia Thirlby,366300000,17,$21.50 ,Juno,143500000
+785,Emma Thompson,1574500000,34,$46.30 ,Beauty and the Beast,504000000
+786,Tessa Thompson,1099700000,10,$110.00 ,Avengers: Endgame,452400000
+787,Bella Thorne,324900000,10,$32.50 ,Alvin and the Chipmunks: The Road Chip,85900000
+788,Billy Bob Thornton,1057100000,36,$29.40 ,Armageddon,201600000
+789,Uma Thurman,789100000,34,$23.20 ,Pulp Fiction,107900000
+790,Brenton Thwaites,488600000,6,$81.40 ,Maleficent,241400000
+791,Justin Timberlake,671500000,15,$44.80 ,Trolls,153700000
+792,Analeigh Tipton,151800000,4,$37.90 ,"Crazy, Stupid, Love.",84400000
+793,Marisa Tomei,2099600000,45,$46.70 ,Captain America 3,408100000
+794,Lily Tomlin,642500000,21,$30.60 ,Spider-Man: Into The Spider-Verse,190200000
+795,Michelle Trachtenberg,254200000,8,$31.80 ,Inspector Gadget,97400000
+796,John Travolta,2404400000,46,$52.30 ,Grease,190000000
+797,Stanley Tucci,3778200000,56,$67.50 ,Beauty and the Beast,504000000
+798,Chris Tucker,797700000,9,$88.60 ,Rush Hour 2,226200000
+799,Alan Tudyk,2499500000,13,$192.30 ,Rogue One,532200000
+800,Liv Tyler,1545600000,23,$67.20 ,Return of the King,377800000
+801,Carrie Underwood,43900000,1,$43.90 ,Soul Surfer,43900000
+802,Kate Upton,128200000,2,$64.10 ,The Other Woman,83900000
+803,Karl Urban,2276600000,19,$119.80 ,Return of the King,377800000
+804,Wilmer Valderrama,76800000,8,$9.60 ,Larry Crowne,35600000
+805,Jean-Claude Van Damme,610800000,22,$27.80 ,Kung Fu Panda 2,165200000
+806,Nia Vardalos,317900000,5,$63.60 ,My Big Fat Greek Wedding,241400000
+807,Vince Vaughn,1806900000,36,$50.20 ,The Lost World,229100000
+808,Alexa Vega,369500000,9,$41.10 ,Spy Kids,112700000
+809,Alicia Vikander,368000000,13,$28.30 ,Jason Bourne,162400000
+810,Goran Visnjic,86100000,7,$12.30 ,Practical Magic,46700000
+811,Mike Vogel,537700000,12,$44.80 ,The Help,169700000
+812,Jon Voight,2268200000,35,$64.80 ,Transformers,319200000
+813,Mark Wahlberg,3005900000,43,$69.90 ,Transformers 4,245400000
+814,David Wain,101000,2,$50.3k,Delirious (2007),86500
+815,Rhys Wakefield,46700000,3,$15.60 ,Endless Love,23400000
+816,Christopher Walken,2093000000,62,$33.80 ,The Jungle Book,364000000
+817,Paul Walker,1644400000,19,$86.50 ,Furious 7,353000000
+818,Quvenzhane Wallis,253100000,4,$63.30 ,Trolls,153700000
+819,Julie Walters,1798600000,28,$64.20 ,Harry Potter / Sorcerer's Stone,317900000
+820,Christoph Waltz,1079800000,15,$72.00 ,Spectre,200100000
+821,Denzel Washington,2502000000,47,$53.20 ,American Gangster,130200000
+822,Mia Wasikowska,534200000,18,$29.70 ,Alice in Wonderland,334200000
+823,Katherine Waterston,503100000,7,$71.90 ,Fantastic Beasts and Where To Find Them,234000000
+824,Emma Watson,3207900000,18,$178.20 ,Beauty and the Beast,504000000
+825,Naomi Watts,949800000,38,$25.00 ,King Kong,218100000
+826,Damon Wayans,217400000,11,$19.80 ,The Last Boy Scout,59500000
+827,Keenen Ivory Wayans,69200000,4,$17.30 ,A Low Down Dirty Shame,29400000
+828,Marlon Wayans,765600000,17,$45.00 ,Scary Movie,157000000
+829,Shawn Wayans,377900000,5,$75.60 ,Scary Movie,157000000
+830,John Wayne,8200000,2,$4.10 ,The Shootist,8100000
+831,Sigourney Weaver,2280100000,47,$48.50 ,Avatar,760500000
+832,Hugo Weaving,2189400000,20,$109.50 ,Fellowship of the Ring,315500000
+833,Rachel Weisz,1267100000,38,$33.30 ,Oz The Great and Powerful,234900000
+834,Leigh Whannell,90200000,3,$30.10 ,Insidious 4,67700000
+835,Ben Whishaw,879600000,15,$58.60 ,Skyfall,304400000
+836,Forest Whitaker,2830500000,57,$49.70 ,Black Panther,700100000
+837,Kristen Wiig,2367500000,33,$71.70 ,Despicable Me 2,368100000
+838,Olivia Wilde,575600000,22,$26.20 ,Tron Legacy,172100000
+839,Gene Wilder,357200000,10,$35.70 ,Blazing Saddles,119600000
+840,Tom Wilkinson,1208400000,46,$26.30 ,Rush Hour,141200000
+841,Michael K. Williams,656600000,16,$41.00 ,The Incredible Hulk,134800000
+842,Michelle Williams,1156400000,31,$37.30 ,Oz The Great and Powerful,234900000
+843,Robin Williams,3279300000,50,$65.60 ,Night at the Museum,250900000
+844,Bruce Willis,3335000000,62,$53.80 ,Sixth Sense,293500000
+845,Luke Wilson,656700000,32,$20.50 ,Legally Blonde,96500000
+846,Owen Wilson,2922500000,43,$68.00 ,Night at the Museum,250900000
+847,Patrick Wilson,1118400000,21,$53.30 ,Aquaman,335100000
+848,Rebel Wilson,620700000,9,$69.00 ,Pitch Perfect 2,184300000
+849,Oprah Winfrey,745400000,9,$82.80 ,Bee Movie,126600000
+850,Kate Winslet,1519300000,34,$44.70 ,Titanic,659400000
+851,Mary Elizabeth Winstead,480000000,18,$26.70 ,Live Free or Die Hard,134500000
+852,Reese Witherspoon,1652300000,33,$50.10 ,Sing,270400000
+853,Ellen Wong,31500000,1,$31.50 ,Scott Pilgrim vs. the World,31500000
+854,Elijah Wood,1889300000,37,$51.10 ,Return of the King,377800000
+855,Shailene Woodley,614700000,9,$68.30 ,Divergent,150900000
+856,Kenny Wormald,64400000,4,$16.10 ,Footloose,51800000
+857,Sam Worthington,1329900000,15,$88.70 ,Avatar,760500000
+858,Jeffrey Wright,2006700000,27,$74.30 ,Catching Fire,424700000
+859,Letitia Wright,2005300000,6,$334.20 ,Black Panther,700100000
+860,Robin Wright,837200000,7,$119.60 ,Wonder Woman,412600000
+861,Anton Yelchin,1090500000,22,$49.60 ,Star Trek,257700000
+862,Donnie Yen,804700000,14,$57.50 ,Rogue One,532200000
+863,Michelle Yeoh,806100000,13,$62.00 ,Crazy Rich Asians,174500000
+864,Steven Yeun,58700000,3,$19.60 ,The Star,40900000
+865,Renee Zellweger,1198900000,29,$41.30 ,Chicago,170700000
+866,Catherine Zeta-Jones,1229300000,24,$51.20 ,Chicago,170700000
+867,Zhang Ziyi,485900000,10,$48.60 ,Rush Hour 2,226200000
+868,Josh Zuckerman,8400000,2,$4.20 ,Sex Drive,8400000

@@ -1,0 +1,2446 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20191.19.0417.1429                               -->
+<workbook source-build='2019.1.3 (20191.19.0417.1429)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='moviedata_clean_nonulls+' inline='true' name='federated.01g57yx0smstgq12pl27e0r4cjnn' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='moviedata_clean_nonulls' name='textscan.1csxmo31hk3u2s137x14h0a7q06a'>
+            <connection class='textscan' directory='C:/Users/marqu/Desktop/Final Project' filename='moviedata_clean_nonulls.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation join='inner' type='join'>
+          <clause type='join'>
+            <expression op='='>
+              <expression op='[moviedata_clean_nonulls.csv].[Movie Title]' />
+              <expression op='[prodbudget_clean.csv].[Movie]' />
+            </expression>
+          </clause>
+          <relation connection='textscan.1csxmo31hk3u2s137x14h0a7q06a' name='moviedata_clean_nonulls.csv' table='[moviedata_clean_nonulls#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='integer' name='Unnamed: 0' ordinal='0' />
+              <column datatype='string' name='Close' ordinal='1' />
+              <column datatype='string' name='Movie Title' ordinal='2' />
+              <column datatype='real' name='Opening Theaters' ordinal='3' />
+              <column datatype='string' name='Opening Day Date' ordinal='4' />
+              <column datatype='real' name='Opening Gross Amount' ordinal='5' />
+              <column datatype='real' name='Rank' ordinal='6' />
+              <column datatype='string' name='Studio' ordinal='7' />
+              <column datatype='real' name='Total Theaters' ordinal='8' />
+              <column datatype='real' name='Total Gross' ordinal='9' />
+              <column datatype='integer' name='Year' ordinal='10' />
+              <column datatype='string' name='Title' ordinal='11' />
+              <column datatype='string' name='Rated' ordinal='12' />
+              <column datatype='date' name='Released' ordinal='13' />
+              <column datatype='real' name='Runtime in Min' ordinal='14' />
+              <column datatype='string' name='Genre' ordinal='15' />
+              <column datatype='string' name='Director' ordinal='16' />
+              <column datatype='string' name='Writer' ordinal='17' />
+              <column datatype='string' name='Actors' ordinal='18' />
+              <column datatype='string' name='Plot' ordinal='19' />
+              <column datatype='string' name='Language' ordinal='20' />
+              <column datatype='string' name='Country' ordinal='21' />
+              <column datatype='string' name='Awards' ordinal='22' />
+              <column datatype='string' name='Poster' ordinal='23' />
+              <column datatype='string' name='Ratings' ordinal='24' />
+              <column datatype='real' name='Metascore' ordinal='25' />
+              <column datatype='real' name='imdbRating' ordinal='26' />
+              <column datatype='real' name='imdbVotes' ordinal='27' />
+              <column datatype='string' name='imdbID' ordinal='28' />
+              <column datatype='date' name='DVD' ordinal='29' />
+              <column datatype='real' name='BoxOffice' ordinal='30' />
+              <column datatype='string' name='Production' ordinal='31' />
+              <column datatype='string' name='Website' ordinal='32' />
+              <column datatype='real' name='Action' ordinal='33' />
+              <column datatype='real' name='Adventure' ordinal='34' />
+              <column datatype='real' name='Animation' ordinal='35' />
+              <column datatype='real' name='Biography' ordinal='36' />
+              <column datatype='real' name='Comedy' ordinal='37' />
+              <column datatype='real' name='Crime' ordinal='38' />
+              <column datatype='real' name='Documentary' ordinal='39' />
+              <column datatype='real' name='Drama' ordinal='40' />
+              <column datatype='real' name='Family' ordinal='41' />
+              <column datatype='real' name='Fantasy' ordinal='42' />
+              <column datatype='real' name='Film Noir' ordinal='43' />
+              <column datatype='real' name='History' ordinal='44' />
+              <column datatype='real' name='Horror' ordinal='45' />
+              <column datatype='real' name='Music' ordinal='46' />
+              <column datatype='real' name='Musical' ordinal='47' />
+              <column datatype='real' name='Mystery' ordinal='48' />
+              <column datatype='real' name='Romance' ordinal='49' />
+              <column datatype='real' name='Sci-Fi' ordinal='50' />
+              <column datatype='real' name='Short' ordinal='51' />
+              <column datatype='real' name='Sport' ordinal='52' />
+              <column datatype='real' name='Superhero' ordinal='53' />
+              <column datatype='real' name='Thriller' ordinal='54' />
+              <column datatype='real' name='War' ordinal='55' />
+              <column datatype='real' name='Western' ordinal='56' />
+              <column datatype='real' name='Actors Avg Total Gross' ordinal='57' />
+              <column datatype='real' name='Actors Avg Number of Movies' ordinal='58' />
+              <column datatype='real' name='Actors Avg Best Picture Gross' ordinal='59' />
+              <column datatype='real' name='Director Total Gross' ordinal='60' />
+              <column datatype='real' name='Director Number of Movies' ordinal='61' />
+              <column datatype='real' name='Director Best Picture Gross' ordinal='62' />
+              <column datatype='real' name='Title Negative Sentiment' ordinal='63' />
+              <column datatype='real' name='Title Neutral Sentiment' ordinal='64' />
+              <column datatype='real' name='Title Positive Sentiment' ordinal='65' />
+              <column datatype='real' name='Title Compound Sentiment' ordinal='66' />
+              <column datatype='string' name='Poster Color' ordinal='67' />
+              <column datatype='real' name='Black' ordinal='68' />
+              <column datatype='real' name='White' ordinal='69' />
+              <column datatype='real' name='Gray' ordinal='70' />
+              <column datatype='real' name='Red' ordinal='71' />
+              <column datatype='real' name='Yellow' ordinal='72' />
+              <column datatype='real' name='Green' ordinal='73' />
+              <column datatype='real' name='Cyan' ordinal='74' />
+              <column datatype='real' name='Blue' ordinal='75' />
+              <column datatype='real' name='Magenta' ordinal='76' />
+              <column datatype='real' name='Rotten Tomatoes Score' ordinal='77' />
+            </columns>
+          </relation>
+          <relation connection='textscan.1csxmo31hk3u2s137x14h0a7q06a' name='prodbudget_clean.csv' table='[prodbudget_clean#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='real' name='Domestic Gross' ordinal='0' />
+              <column datatype='string' name='Movie' ordinal='1' />
+              <column datatype='real' name='Production Budget' ordinal='2' />
+              <column datatype='date' name='Release_Date' ordinal='3' />
+              <column datatype='real' name='Worldwide Gross' ordinal='4' />
+              <column datatype='string' name='_id' ordinal='5' />
+            </columns>
+          </relation>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unnamed: 0</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Unnamed: 0]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Unnamed: 0</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Close</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Close]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Close</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Movie Title</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Movie Title]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Movie Title</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Opening Theaters</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Opening Theaters]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Opening Theaters</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Opening Day Date</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Opening Day Date]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Opening Day Date</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Opening Gross Amount</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Opening Gross Amount]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Opening Gross Amount</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rank</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Rank]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Rank</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Studio</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Studio]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Studio</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Theaters</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total Theaters]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Total Theaters</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Gross</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total Gross]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Total Gross</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Title</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Title]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Title</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rated</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Rated]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Rated</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Released</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Released]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Released</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Runtime in Min</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Runtime in Min]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Runtime in Min</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Genre</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Genre]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Genre</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Director</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Director]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Director</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Writer</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Writer]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Writer</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Actors</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Actors]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Actors</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Plot</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Plot]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Plot</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Language</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Language]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Language</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Country]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Country</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Awards</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Awards]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Awards</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Poster</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Poster]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Poster</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ratings</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Ratings]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Ratings</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Metascore</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Metascore]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Metascore</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>imdbRating</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[imdbRating]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>imdbRating</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>imdbVotes</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[imdbVotes]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>imdbVotes</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>imdbID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[imdbID]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>imdbID</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DVD</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[DVD]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>DVD</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BoxOffice</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[BoxOffice]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>BoxOffice</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Production</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Production]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Production</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Website</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Website]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Website</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Action</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Action]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Action</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Adventure</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Adventure]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Adventure</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Animation</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Animation]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Animation</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Biography</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Biography]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Biography</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Comedy</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Comedy]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Comedy</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Crime</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Crime]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Crime</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Documentary</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Documentary]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Documentary</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Drama</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Drama]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Drama</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Family</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Family]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Family</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fantasy</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Fantasy]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Fantasy</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Film Noir</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Film Noir]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Film Noir</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>History</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[History]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>History</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Horror</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Horror]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Horror</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Music</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Music]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Music</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Musical</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Musical]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Musical</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mystery</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Mystery]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Mystery</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Romance</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Romance]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Romance</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sci-Fi</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Sci-Fi]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Sci-Fi</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Short</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Short]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Short</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sport</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Sport]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Sport</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Superhero</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Superhero]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Superhero</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Thriller</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Thriller]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Thriller</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>War</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[War]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>War</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Western</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Western]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Western</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Actors Avg Total Gross</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Actors Avg Total Gross]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Actors Avg Total Gross</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Actors Avg Number of Movies</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Actors Avg Number of Movies]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Actors Avg Number of Movies</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Actors Avg Best Picture Gross</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Actors Avg Best Picture Gross]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Actors Avg Best Picture Gross</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Director Total Gross</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Director Total Gross]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Director Total Gross</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Director Number of Movies</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Director Number of Movies]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Director Number of Movies</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Director Best Picture Gross</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Director Best Picture Gross]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Director Best Picture Gross</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Title Negative Sentiment</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Title Negative Sentiment]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Title Negative Sentiment</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Title Neutral Sentiment</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Title Neutral Sentiment]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Title Neutral Sentiment</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Title Positive Sentiment</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Title Positive Sentiment]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Title Positive Sentiment</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Title Compound Sentiment</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Title Compound Sentiment]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Title Compound Sentiment</remote-alias>
+            <ordinal>66</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Poster Color</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Poster Color]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Poster Color</remote-alias>
+            <ordinal>67</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Black</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Black]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Black</remote-alias>
+            <ordinal>68</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>White</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[White]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>White</remote-alias>
+            <ordinal>69</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gray</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Gray]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Gray</remote-alias>
+            <ordinal>70</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Red</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Red]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Red</remote-alias>
+            <ordinal>71</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Yellow</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Yellow]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Yellow</remote-alias>
+            <ordinal>72</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Green</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Green]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Green</remote-alias>
+            <ordinal>73</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cyan</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Cyan]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Cyan</remote-alias>
+            <ordinal>74</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Blue</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Blue]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Blue</remote-alias>
+            <ordinal>75</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Magenta</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Magenta]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Magenta</remote-alias>
+            <ordinal>76</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rotten Tomatoes Score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Rotten Tomatoes Score]</local-name>
+            <parent-name>[moviedata_clean_nonulls.csv]</parent-name>
+            <remote-alias>Rotten Tomatoes Score</remote-alias>
+            <ordinal>77</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[prodbudget_clean.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Domestic Gross</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Domestic Gross]</local-name>
+            <parent-name>[prodbudget_clean.csv]</parent-name>
+            <remote-alias>Domestic Gross</remote-alias>
+            <ordinal>78</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Movie</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Movie]</local-name>
+            <parent-name>[prodbudget_clean.csv]</parent-name>
+            <remote-alias>Movie</remote-alias>
+            <ordinal>79</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Production Budget</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Production Budget]</local-name>
+            <parent-name>[prodbudget_clean.csv]</parent-name>
+            <remote-alias>Production Budget</remote-alias>
+            <ordinal>80</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Release_Date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Release_Date]</local-name>
+            <parent-name>[prodbudget_clean.csv]</parent-name>
+            <remote-alias>Release_Date</remote-alias>
+            <ordinal>81</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Worldwide Gross</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Worldwide Gross]</local-name>
+            <parent-name>[prodbudget_clean.csv]</parent-name>
+            <remote-alias>Worldwide Gross</remote-alias>
+            <ordinal>82</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[_id]</local-name>
+            <parent-name>[prodbudget_clean.csv]</parent-name>
+            <remote-alias>_id</remote-alias>
+            <ordinal>83</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Box Office' datatype='real' name='[BoxOffice]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='real' name='[Metascore]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column datatype='real' name='[Opening Gross Amount]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Production Budget]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Rated]' role='dimension' type='nominal' />
+      <column caption='Release Date' datatype='date' name='[Release_Date]' role='dimension' type='ordinal' />
+      <column datatype='real' name='[Rotten Tomatoes Score]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Studio]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <column caption='_Id' datatype='string' name='[_id]' role='dimension' type='nominal' />
+      <column caption='Imdb ID' datatype='string' name='[imdbID]' role='dimension' type='nominal' />
+      <column caption='Imdb Rating' datatype='real' name='[imdbRating]' role='measure' type='quantitative' />
+      <column caption='Imdb Votes' datatype='real' name='[imdbVotes]' role='measure' type='quantitative' />
+      <column-instance column='[Metascore]' derivation='Avg' name='[avg:Metascore:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Rotten Tomatoes Score]' derivation='Avg' name='[avg:Rotten Tomatoes Score:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[imdbRating]' derivation='Avg' name='[avg:imdbRating:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Forecast Indicator]' derivation='None' forecast-column-base='[Forecast Indicator]' forecast-column-type='forecast-indicator' name='[none:Forecast Indicator:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Rated]' derivation='None' name='[none:Rated:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Studio]' derivation='None' name='[none:Studio:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Opening Gross Amount]' derivation='Sum' name='[sum:Opening Gross Amount:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Production Budget]' derivation='Sum' name='[sum:Production Budget:qk]' pivot='key' type='quantitative' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.827618' measure-ordering='alphabetic' measure-percentage='0.172382' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Studio:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Acc.&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;BG&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Code&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Eros&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;FUN&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Icar.&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;KE&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;MGM&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Open&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;PicH&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;RM&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;SPC&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;TRR&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Wins.&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Arab&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;CE&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;DW&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;FM&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;GrtIndia&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Indic.&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;MAC&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;NW&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Par.&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;RB&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Shoot.&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;TFC&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Viv.&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;10F&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Atl&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;CityL&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;ELS&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;FoxM&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Hann.&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;IVP&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Maya&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Oct.&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;PDA&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Relbig.&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;SmlP&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Trim.&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Wein.&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;AL&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Briarcliff&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;CSr&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Fader&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Gathr&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;IH&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;LavH&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Mont.&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;OrionC&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Pow.&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;RS&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Strand&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Uni.&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;YFG&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;ADF&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;BH Tilt&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Cohen&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Excel&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;FunAcad&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;ICir&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Kino&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;MGM/W&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Orch.&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;PMKBNC&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Rog.&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;SRep&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Truly&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;WIP&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;21CF&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;BBC&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Cleopatra&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Emb&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;FoxS&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Hemd&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;IW&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;MBox&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Ode.&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;PFR&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;RF&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;SMod&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;TriS&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Wells&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Annapurna&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;CB&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Drft.&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;First&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Good&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Imp&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Lori&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;NM&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Pala.&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Rain.&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;SenD&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Test.&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;VidS&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;3D&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Argo.&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;CGld&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;E1&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Focus&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;GVN&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;IsAl&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Magn.&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;NxtM&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;PARAIN&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;RBC&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Skou&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Think&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;W/Dim.&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Amazon&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;CafeP&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Dim.&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;FFn.&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Global Road&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;ImAs&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;LGP&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;NGE&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;P4&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;PZR&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Scre.&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Sum.&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;VE&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;A24&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;BDF&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Cloud&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;ENTMP&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Free&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Hum.&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Jan.&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;MEI&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Off-H&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;PH&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;RKO&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;SonR&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Triu&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;WHE&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Alc&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;BSC&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Dar.&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;FB&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;GCR&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Illm.&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;LD&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;MovE&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Osci.&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Prior.&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;RTWC&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Strat.&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;USA&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Zeit.&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;All.&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;BST&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;David&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;FCW&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;GK&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;IM&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;LG/S&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;NCeV&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;OutF&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Prov.&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Saban&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Studio 8&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;UTV&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Zion&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Anch.&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Can.&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;DR&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;FInd.&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Gold.&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;IMG/B&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Lions&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;NL&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;P/DW&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;QM&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;SD&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Tar.&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Vest&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;App.&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;CBS&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;DTP&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;FL&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Gram.&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;INDEP&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Lot47&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;North&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Palm&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;RAtt.&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;SGem&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;TFA&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Vita.&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;AdL.&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;BIP&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Col.&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;EXCL&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;G&amp;S&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;IDP&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;KL&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Mira.&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;ORF&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;PNT&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Rom.&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;SSP&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;UA&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;WMM&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Abr.&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;BFM&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;CLS&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;EOne&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;FRun&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;IA&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;JF&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Mela&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;OMNI/FSR&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Pha.&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;RLJ&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Sony&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Troma&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;WinD&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;5&amp;2&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Arro.&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Cinc&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;EC&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Fox&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Hale&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Isld&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Mang.&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;NYer&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;ParC&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Reg.&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Slow&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;TLA&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;WB&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;ALP&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;BV&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Dest.&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;FD&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;GldC&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Imag.&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;LGF&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;NFC&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Over.&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Purd.&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Sav.&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;STX&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Vari.&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Affirm&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;BPic&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Cow.&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Fabr.&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Gal.&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;IFC&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Latin&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;MNE&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Orion&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Poly&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Roxie&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Ston5&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;UFD&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Yash&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;8X&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Art.&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Circ&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Electric&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;FoxA&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Ham&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Istr&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Mats.&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;OAE&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;ParV&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Rela.&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;SM&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Trib.&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;WB (NL)&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.01g57yx0smstgq12pl27e0r4cjnn].[sum:Opening Gross Amount:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.01g57yx0smstgq12pl27e0r4cjnn].[avg:Rotten Tomatoes Score:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.01g57yx0smstgq12pl27e0r4cjnn].[avg:Metascore:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.01g57yx0smstgq12pl27e0r4cjnn].[avg:imdbRating:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.01g57yx0smstgq12pl27e0r4cjnn]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.01g57yx0smstgq12pl27e0r4cjnn].[sum:Production Budget:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Rated:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;G&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;PG-13&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;PG&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;UNRATED&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;NOT RATED&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;TV-14&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;NC-17&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;R&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;M&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Unrated&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;TV-MA&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Not Rated&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <default-sorts>
+        <manual-sort column='[none:Forecast Indicator:nk]' direction='ASC'>
+          <dictionary>
+            <bucket>&quot;Actual&quot;</bucket>
+            <bucket>&quot;Estimate&quot;</bucket>
+          </dictionary>
+        </manual-sort>
+      </default-sorts>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Highlight 1 (generated)' name='[Action1]'>
+      <activation auto-clear='true' type='on-select' />
+      <source type='sheet' worksheet='Amount of Opening Theater Per Rating of A Movie over Time' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='Rated' />
+        <param name='target' value='Amount of Opening Theater Per Rating of A Movie over Time' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Amount of Opening Theater Per Rating of A Movie over Time'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='moviedata_clean_nonulls+' name='federated.01g57yx0smstgq12pl27e0r4cjnn' />
+          </datasources>
+          <datasource-dependencies datasource='federated.01g57yx0smstgq12pl27e0r4cjnn'>
+            <column datatype='real' name='[Opening Theaters]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Rated]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Rated]' derivation='None' name='[none:Rated:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Opening Theaters]' derivation='Sum' name='[sum:Opening Theaters:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.01g57yx0smstgq12pl27e0r4cjnn].[none:Rated:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter from='&quot;G&quot;' function='range' level='[none:Rated:nk]' to='&quot;NC-17&quot;' />
+              <groupfilter from='&quot;PG&quot;' function='range' level='[none:Rated:nk]' to='&quot;TV-MA&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='quantitative' column='[federated.01g57yx0smstgq12pl27e0r4cjnn].[sum:Opening Theaters:qk]' included-values='non-null' />
+          <slices>
+            <column>[federated.01g57yx0smstgq12pl27e0r4cjnn].[none:Rated:nk]</column>
+            <column>[federated.01g57yx0smstgq12pl27e0r4cjnn].[sum:Opening Theaters:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.01g57yx0smstgq12pl27e0r4cjnn].[none:Rated:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.01g57yx0smstgq12pl27e0r4cjnn].[sum:Opening Theaters:qk]</rows>
+        <cols>[federated.01g57yx0smstgq12pl27e0r4cjnn].[none:Year:qk]</cols>
+      </table>
+      <simple-id uuid='{458095C9-C837-4889-9810-6D6CAD8D437A}' />
+    </worksheet>
+    <worksheet name='Average Movie Ratings by US Ratings '>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='moviedata_clean_nonulls+' name='federated.01g57yx0smstgq12pl27e0r4cjnn' />
+          </datasources>
+          <datasource-dependencies datasource='federated.01g57yx0smstgq12pl27e0r4cjnn'>
+            <column datatype='real' name='[Metascore]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Rated]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Rotten Tomatoes Score]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Metascore]' derivation='Avg' name='[avg:Metascore:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Rotten Tomatoes Score]' derivation='Avg' name='[avg:Rotten Tomatoes Score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[imdbRating]' derivation='Avg' name='[avg:imdbRating:qk]' pivot='key' type='quantitative' />
+            <column caption='Imdb Rating' datatype='real' name='[imdbRating]' role='measure' type='quantitative' />
+            <column-instance column='[Rated]' derivation='None' name='[none:Rated:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.01g57yx0smstgq12pl27e0r4cjnn].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.01g57yx0smstgq12pl27e0r4cjnn].[avg:imdbRating:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.01g57yx0smstgq12pl27e0r4cjnn].[avg:Metascore:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.01g57yx0smstgq12pl27e0r4cjnn].[avg:Rotten Tomatoes Score:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='quantitative' column='[federated.01g57yx0smstgq12pl27e0r4cjnn].[avg:Metascore:qk]' included-values='non-null' />
+          <filter class='categorical' column='[federated.01g57yx0smstgq12pl27e0r4cjnn].[none:Rated:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Rated:nk]' />
+              <groupfilter function='member' level='[none:Rated:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <filter class='quantitative' column='[federated.01g57yx0smstgq12pl27e0r4cjnn].[none:Year:qk]' included-values='in-range'>
+            <min>2000</min>
+            <max>2019</max>
+          </filter>
+          <slices>
+            <column>[federated.01g57yx0smstgq12pl27e0r4cjnn].[avg:Metascore:qk]</column>
+            <column>[federated.01g57yx0smstgq12pl27e0r4cjnn].[none:Rated:nk]</column>
+            <column>[federated.01g57yx0smstgq12pl27e0r4cjnn].[:Measure Names]</column>
+            <column>[federated.01g57yx0smstgq12pl27e0r4cjnn].[none:Year:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.01g57yx0smstgq12pl27e0r4cjnn].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.01g57yx0smstgq12pl27e0r4cjnn].[Multiple Values]</rows>
+        <cols>([federated.01g57yx0smstgq12pl27e0r4cjnn].[none:Rated:nk] / [federated.01g57yx0smstgq12pl27e0r4cjnn].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{C34174FA-5C21-457D-A844-451707B40264}' />
+    </worksheet>
+    <worksheet name='Average Runtime Throughout the Years'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='moviedata_clean_nonulls+' name='federated.01g57yx0smstgq12pl27e0r4cjnn' />
+          </datasources>
+          <datasource-dependencies datasource='federated.01g57yx0smstgq12pl27e0r4cjnn'>
+            <column datatype='string' name='[Movie Title]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Opening Theaters]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Runtime in Min]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Runtime in Min]' derivation='Avg' name='[avg:Runtime in Min:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Runtime in Min]' derivation='Avg' forecast-column-base='[avg:Runtime in Min:qk]' forecast-column-type='forecast-value' name='[fVal:avg:Runtime in Min:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Movie Title]' derivation='None' name='[none:Movie Title:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.01g57yx0smstgq12pl27e0r4cjnn].[none:Movie Title:nk]'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='MAX([Opening Theaters])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:Movie Title:nk]' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-manual-selection-is-empty='true' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.01g57yx0smstgq12pl27e0r4cjnn].[none:Movie Title:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='table'>
+            <format attr='show-null-value-warning' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.01g57yx0smstgq12pl27e0r4cjnn].[fVal:avg:Runtime in Min:qk]</rows>
+        <cols>[federated.01g57yx0smstgq12pl27e0r4cjnn].[none:Year:qk]</cols>
+        <forecast-specification auto-forecast-agg='true' band-confidence-level='95.000000' enabled='true' fill-type='fill-missing' ignore-last='1' model-type='custom' range-periods='Year-Trunc' range-size='1' range-type='next' season-type='ets-additive' show-prediction-bands='true' trend-type='ets-additive' />
+      </table>
+      <simple-id uuid='{B144D17F-0E7C-4DF1-BA5D-B42C6292EF1C}' />
+    </worksheet>
+    <worksheet name='Open vs Production Budget'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='moviedata_clean_nonulls+' name='federated.01g57yx0smstgq12pl27e0r4cjnn' />
+          </datasources>
+          <datasource-dependencies datasource='federated.01g57yx0smstgq12pl27e0r4cjnn'>
+            <column datatype='string' name='[Movie Title]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Opening Gross Amount]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Production Budget]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Total Gross]' role='measure' type='quantitative' />
+            <column-instance column='[Movie Title]' derivation='None' name='[none:Movie Title:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Opening Gross Amount]' derivation='Sum' name='[sum:Opening Gross Amount:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Production Budget]' derivation='Sum' name='[sum:Production Budget:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.01g57yx0smstgq12pl27e0r4cjnn].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.01g57yx0smstgq12pl27e0r4cjnn].[sum:Opening Gross Amount:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.01g57yx0smstgq12pl27e0r4cjnn].[sum:Production Budget:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.01g57yx0smstgq12pl27e0r4cjnn].[none:Movie Title:nk]'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='AVG([Total Gross])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:Movie Title:nk]' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-manual-selection-is-empty='true' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.01g57yx0smstgq12pl27e0r4cjnn].[:Measure Names]</column>
+            <column>[federated.01g57yx0smstgq12pl27e0r4cjnn].[none:Movie Title:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.01g57yx0smstgq12pl27e0r4cjnn].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.01g57yx0smstgq12pl27e0r4cjnn].[Multiple Values]</rows>
+        <cols>([federated.01g57yx0smstgq12pl27e0r4cjnn].[none:Movie Title:nk] / [federated.01g57yx0smstgq12pl27e0r4cjnn].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{AEA3A7AA-E2AE-44E0-B7A6-8728D42579F2}' />
+    </worksheet>
+    <worksheet name='Sheet 5'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{63F42463-A212-4B60-A79F-4A5AB6534089}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='44'>
+    <window class='worksheet' maximized='true' name='Open vs Production Budget'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.01g57yx0smstgq12pl27e0r4cjnn].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{88F5F41D-5072-410C-8452-A2C9EB510AB0}' />
+    </window>
+    <window class='worksheet' name='Average Runtime Throughout the Years'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{1700B57F-E96C-41B5-AD50-94F6D2FA3448}' />
+    </window>
+    <window class='worksheet' name='Amount of Opening Theater Per Rating of A Movie over Time'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.01g57yx0smstgq12pl27e0r4cjnn].[none:Rated:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{F60C525C-39DD-46E3-9803-88C3D0C2E907}' />
+    </window>
+    <window class='worksheet' name='Average Movie Ratings by US Ratings '>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.01g57yx0smstgq12pl27e0r4cjnn].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{01A81BD5-2A73-4A21-8DC6-9CB12BF5792B}' />
+    </window>
+    <window class='worksheet' name='Sheet 5'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{831D1D86-5007-4939-8850-00E4214F27E0}' />
+    </window>
+  </windows>
+</workbook>
